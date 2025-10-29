@@ -1,0 +1,4 @@
+/mnt/c/Users/USER/source/repos/project_RG/build/CMakeFiles/RadioControlSystem.dir
+/mnt/c/Users/USER/source/repos/project_RG/build/CMakeFiles/docs.dir
+/mnt/c/Users/USER/source/repos/project_RG/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/USER/source/repos/project_RG/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,12 @@
+<map id="System::isValidBoolean" name="System::isValidBoolean">
+<area shape="rect" id="Node000001" title="Checks validity of boolean string." alt="" coords="521,31,696,56"/>
+<area shape="rect" id="Node000002" href="$classSET.html#a4e4f13a0088b062a206dcf5b136a0f65" title="Sets automatic modulation mode." alt="" coords="260,5,473,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="507,35,473,32,474,27,508,30"/>
+<area shape="rect" id="Node000005" href="$classSET.html#a413d730e499b9b5cc2edad71d0ef952a" title="Sets modulation state." alt="" coords="293,55,440,80"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="508,56,441,63,440,57,507,51"/>
+<area shape="rect" id="Node000003" href="$classSET.html#a07b17ded49b3f3220f4cc1a3cffacbb7" title="Executes system parameter setting." alt="" coords="108,31,212,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="250,35,213,40,212,34,249,30"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="94,46,60,46,60,41,94,41"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="279,60,212,52,213,47,280,55"/>
+</map>

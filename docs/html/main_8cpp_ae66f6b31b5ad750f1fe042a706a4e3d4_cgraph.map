@@ -1,0 +1,40 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,129,60,155"/>
+<area shape="rect" id="Node000002" href="$classGET.html#af16fd13fadabf126f8f09a97d0f29c9c" title="Executes system parameter reading." alt="" coords="171,55,278,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="47,127,74,107,107,89,157,74,159,79,109,94,77,112,50,131"/>
+<area shape="rect" id="Node000003" href="$classSET.html#a07b17ded49b3f3220f4cc1a3cffacbb7" title="Executes system parameter setting." alt="" coords="173,104,277,129"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="60,136,158,123,159,128,61,141"/>
+<area shape="rect" id="Node000011" href="$classSystem.html#a8e705bd2f5f23ee31bf5846015214c04" title="Sets callback function for alarm handling." alt="" coords="127,153,322,179"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="61,143,114,149,113,155,60,148"/>
+<area shape="rect" id="Node000012" href="$classALARM.html#ab062f1e924d10a708eba574f24c3bfbb" title="Updates simulation and checks alarms." alt="" coords="108,203,341,228"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="52,153,78,171,109,188,135,197,133,202,107,192,75,175,49,157"/>
+<area shape="rect" id="Node000004" href="$classSET.html#a4e4f13a0088b062a206dcf5b136a0f65" title="Sets automatic modulation mode." alt="" coords="389,5,603,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="276,109,309,102,340,89,354,78,363,65,372,52,388,40,402,33,404,38,391,44,376,56,368,68,358,81,343,94,311,107,278,115"/>
+<area shape="rect" id="Node000006" href="$classSET.html#a4c806279868993a72e8c5e68419d749b" title="Sets operating frequency." alt="" coords="426,104,566,129"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="277,114,413,114,413,119,277,119"/>
+<area shape="rect" id="Node000008" href="$classSET.html#a413d730e499b9b5cc2edad71d0ef952a" title="Sets modulation state." alt="" coords="423,55,569,80"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="277,105,412,80,413,85,278,110"/>
+<area shape="rect" id="Node000009" href="$classSET.html#ac6ae86e025ef893c576f12981ce79768" title="Sets nominal output power." alt="" coords="412,153,580,179"/>
+<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="278,123,413,148,412,153,277,129"/>
+<area shape="rect" id="Node000010" href="$classSystem.html#a194139c6b68d3649d6159a443d1ceccf" title="Updates system simulation data." alt="" coords="399,203,593,228"/>
+<area shape="poly" id="edge11_Node000003_Node000010" title=" " alt="" coords="278,118,311,125,343,138,358,151,368,164,376,176,391,188,407,196,405,200,388,192,372,180,363,167,354,154,340,143,309,130,277,123"/>
+<area shape="rect" id="Node000005" href="$classSystem.html#ae427fbf39214f54868d51373dc4afb0b" title="Checks validity of boolean string." alt="" coords="686,43,861,68"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="591,28,673,39,672,44,590,33"/>
+<area shape="rect" id="Node000007" href="$classSystem.html#a0826879cebd3f95ac10c3515234c9609" title="Checks validity of numeric string." alt="" coords="686,116,861,141"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="566,117,672,122,672,127,566,122"/>
+<area shape="poly" id="edge8_Node000008_Node000005" title=" " alt="" coords="569,62,672,57,672,62,570,67"/>
+<area shape="poly" id="edge10_Node000009_Node000007" title=" " alt="" coords="580,152,672,140,673,145,580,157"/>
+<area shape="poly" id="edge21_Node000012_Node000010" title=" " alt="" coords="341,213,385,213,385,218,341,218"/>
+<area shape="rect" id="Node000013" href="$classALARM.html#a0258327c473027f4b3242d87e0a4dbcf" title="Checks all types of alarms." alt="" coords="407,252,585,277"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="296,225,412,247,411,252,295,231"/>
+<area shape="rect" id="Node000014" href="$classALARM.html#aefe5e15249d61a54d8806c030ee09610" title="Checks input power alarms." alt="" coords="656,203,891,228"/>
+<area shape="poly" id="edge15_Node000013_Node000014" title=" " alt="" coords="568,249,687,228,688,233,569,255"/>
+<area shape="rect" id="Node000016" href="$classALARM.html#ad16e6e018a93a391645c5e5af562c889" title="Checks output power alarms." alt="" coords="651,252,896,277"/>
+<area shape="poly" id="edge17_Node000013_Node000016" title=" " alt="" coords="585,262,637,262,637,267,585,267"/>
+<area shape="rect" id="Node000017" href="$classALARM.html#af6efa877fd7d818da53007898c83c3a7" title="Checks temperature alarms." alt="" coords="652,301,895,327"/>
+<area shape="poly" id="edge19_Node000013_Node000017" title=" " alt="" coords="569,275,688,296,687,301,568,280"/>
+<area shape="rect" id="Node000015" href="$classSystem.html#ad8bb613c6c7602442a0b6707cccbc82d" title="Calls alarm callback function." alt="" coords="944,252,1105,277"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="839,225,897,237,946,247,945,252,895,242,838,231"/>
+<area shape="poly" id="edge18_Node000016_Node000015" title=" " alt="" coords="896,262,930,262,930,267,896,267"/>
+<area shape="poly" id="edge20_Node000017_Node000015" title=" " alt="" coords="838,299,945,277,946,283,839,304"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="SET::setNominalPower" name="SET::setNominalPower">
+<area shape="rect" id="Node000001" title="Sets nominal output power." alt="" coords="5,5,173,31"/>
+<area shape="rect" id="Node000002" href="$classSystem.html#a0826879cebd3f95ac10c3515234c9609" title="Checks validity of numeric string." alt="" coords="221,5,396,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,15,208,15,208,21,174,21"/>
+</map>
