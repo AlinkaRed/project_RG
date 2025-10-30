@@ -35,7 +35,6 @@ void ALARM::checkTemperatureAlarms() {
         triggerAlarm("Critical: Critical temperature (>110°C)");
     }
 
-    // Low temperature check
     if (data.temp < -20 && data.temp >= -30) {
         triggerAlarm("Warning: Temperature approaching critical levels (<-20°C)");
     } else if (data.temp < -30 && data.temp >= -40) {
@@ -49,12 +48,10 @@ void ALARM::checkTemperatureAlarms() {
  * @brief Checks output power alarms
  */
 void ALARM::checkOutputPowerAlarms() {
-    // Check deviation from nominal power
     if (std::abs(data.real_output_power - data.nominal_output_power) > 2) {
         triggerAlarm("Warning: Output power deviation >2dB");
     }
 
-    // Check safe range
     if (data.real_output_power < -2 || data.real_output_power > 12) {
         triggerAlarm("Error: Output power outside safe range (<-2dB or >12dB)");
     }

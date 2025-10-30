@@ -1,5 +1,0 @@
-<map id="SET::setModulation" name="SET::setModulation">
-<area shape="rect" id="Node000001" title="Sets modulation state." alt="" coords="5,5,152,31"/>
-<area shape="rect" id="Node000002" href="$classSystem.html#ae427fbf39214f54868d51373dc4afb0b" title="Checks validity of boolean string." alt="" coords="200,5,375,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,15,186,15,186,21,152,21"/>
-</map>

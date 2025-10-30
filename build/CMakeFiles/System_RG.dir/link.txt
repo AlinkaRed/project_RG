@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/System_RG.dir/main.cpp.o CMakeFiles/System_RG.dir/ALARM.cpp.o CMakeFiles/System_RG.dir/Protocol/SystemData.cpp.o CMakeFiles/System_RG.dir/Protocol/System.cpp.o CMakeFiles/System_RG.dir/Protocol/SET.cpp.o CMakeFiles/System_RG.dir/Protocol/GET.cpp.o -o System_RG 

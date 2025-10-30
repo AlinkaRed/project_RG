@@ -128,20 +128,26 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Alarm.cpp" />
+    <ClCompile Include="Client.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Protocol\Get.cpp" />
     <ClCompile Include="Protocol\Set.cpp" />
     <ClCompile Include="Protocol\System.cpp" />
     <ClCompile Include="Protocol\SystemData.cpp" />
+    <ClCompile Include="Server.cpp" />
+    <ClCompile Include="SharedData.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Alarm.h" />
+    <ClInclude Include="Client.h" />
     <ClInclude Include="groups.h" />
     <ClInclude Include="mainpage.h" />
     <ClInclude Include="Protocol\Get.h" />
     <ClInclude Include="Protocol\Set.h" />
     <ClInclude Include="Protocol\System.h" />
     <ClInclude Include="Protocol\SystemData.h" />
+    <ClInclude Include="Server.h" />
+    <ClInclude Include="SharedData.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Doxyfile" />
