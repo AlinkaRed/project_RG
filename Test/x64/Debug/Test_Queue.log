@@ -1,0 +1,8 @@
+﻿  test_queue.cpp
+C:\Users\USER\My_Queue\Test_Queue\gtest.h(50,1): warning C4005: _SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING: изменение макроопределения
+  (компиляция исходного файла "test_queue.cpp")
+  C:\Users\USER\My_Queue\Test_Queue\gtest.h(50,1):
+  "_SILENCE_TR1_NAMESPACE_DEPRECATION_WARNING" ранее объявлен в командной строке
+  
+C:\Users\USER\My_Queue\Test_Queue\test_queue.cpp(202,15): warning C4101: z: неиспользованная локальная переменная
+  Test_Queue.vcxproj -> C:\Users\USER\My_Queue\x64\Debug\Test_Queue.exe

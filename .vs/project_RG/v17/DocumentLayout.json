@@ -3,20 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\project_RG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\SystemData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Protocol\\SystemData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{55EC20E9-4516-448E-A4CA-871AE33D6348}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{55EC20E9-4516-448E-A4CA-871AE33D6348}|C:\\Users\\USER\\source\\repos\\project_RG\\Test\\test_system.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{55EC20E9-4516-448E-A4CA-871AE33D6348}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{55EC20E9-4516-448E-A4CA-871AE33D6348}|solutionrelative:Test\\test_system.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\SystemData.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Protocol\\SystemData.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{55EC20E9-4516-448E-A4CA-871AE33D6348}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{55EC20E9-4516-448E-A4CA-871AE33D6348}|C:\\Users\\USER\\source\\repos\\project_RG\\Test\\t.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{55EC20E9-4516-448E-A4CA-871AE33D6348}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{55EC20E9-4516-448E-A4CA-871AE33D6348}|solutionrelative:Test\\t.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Alarm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Alarm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\Get.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Protocol\\Get.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\Set.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Protocol\\Set.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\Set.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Protocol\\Set.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Protocol\\System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\System.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Protocol\\System.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Protocol\\System.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\SystemData.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Protocol\\SystemData.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\SystemData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Protocol\\SystemData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EC20E9-4516-448E-A4CA-871AE33D6348}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{55EC20E9-4516-448E-A4CA-871AE33D6348}|C:\\Users\\USER\\source\\repos\\project_RG\\Test\\test_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{55EC20E9-4516-448E-A4CA-871AE33D6348}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{55EC20E9-4516-448E-A4CA-871AE33D6348}|solutionrelative:Test\\test_main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EC20E9-4516-448E-A4CA-871AE33D6348}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{55EC20E9-4516-448E-A4CA-871AE33D6348}|C:\\Users\\USER\\source\\repos\\project_RG\\Test\\gtest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{55EC20E9-4516-448E-A4CA-871AE33D6348}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{55EC20E9-4516-448E-A4CA-871AE33D6348}|solutionrelative:Test\\gtest.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55EC20E9-4516-448E-A4CA-871AE33D6348}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{55EC20E9-4516-448E-A4CA-871AE33D6348}|C:\\Users\\USER\\source\\repos\\project_RG\\Test\\gtest-all.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{55EC20E9-4516-448E-A4CA-871AE33D6348}|\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0440\u0435\u0448\u0435\u043D\u0438\u044F{55EC20E9-4516-448E-A4CA-871AE33D6348}|solutionrelative:Test\\gtest-all.cc||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Server.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Server.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Client.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Client.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\SharedData.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -25,22 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\SharedData.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:SharedData.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\Set.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Protocol\\Set.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\Set.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Protocol\\Set.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Server.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Server.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Server.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\mainpage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -59,10 +95,6 @@
       "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Protocol\\Get.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\Get.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Protocol\\Get.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\generate_docs.sh||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:generate_docs.sh||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
@@ -75,20 +107,8 @@
       "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Client.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Client.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Client.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Alarm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Alarm.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|C:\\Users\\USER\\source\\repos\\project_RG\\Alarm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{13981E80-96F8-4112-9C76-3A97533B642C}|project_RG.vcxproj|solutionrelative:Alarm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,137 +134,212 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "t.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Test\\t.cpp",
+              "RelativeDocumentMoniker": "Test\\t.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\Test\\t.cpp",
+              "RelativeToolTip": "Test\\t.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-02T15:34:40.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "test_system.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Test\\test_system.cpp",
+              "RelativeDocumentMoniker": "Test\\test_system.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\Test\\test_system.cpp",
+              "RelativeToolTip": "Test\\test_system.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsBAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-02T14:52:29.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "SystemData.h",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\SystemData.h",
               "RelativeDocumentMoniker": "Protocol\\SystemData.h",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\SystemData.h",
               "RelativeToolTip": "Protocol\\SystemData.h",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowFsAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-30T10:16:52.795Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "SystemData.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\SystemData.cpp",
               "RelativeDocumentMoniker": "Protocol\\SystemData.cpp",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\SystemData.cpp",
               "RelativeToolTip": "Protocol\\SystemData.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-30T10:16:50.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "System.h",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\System.h",
               "RelativeDocumentMoniker": "Protocol\\System.h",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\System.h",
               "RelativeToolTip": "Protocol\\System.h",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAowF4AAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-30T10:16:46.131Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "System.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\System.cpp",
               "RelativeDocumentMoniker": "Protocol\\System.cpp",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\System.cpp",
               "RelativeToolTip": "Protocol\\System.cpp",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAowE0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-30T10:16:41.987Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Set.h",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\Set.h",
               "RelativeDocumentMoniker": "Protocol\\Set.h",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\Set.h",
               "RelativeToolTip": "Protocol\\Set.h",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAowDAAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-30T10:16:33.159Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Set.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\Set.cpp",
               "RelativeDocumentMoniker": "Protocol\\Set.cpp",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\Set.cpp",
               "RelativeToolTip": "Protocol\\Set.cpp",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAowGIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-30T10:16:28.149Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "groups.h",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\groups.h",
-              "RelativeDocumentMoniker": "groups.h",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\groups.h",
-              "RelativeToolTip": "groups.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-30T10:16:07.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Get.h",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\Get.h",
-              "RelativeDocumentMoniker": "Protocol\\Get.h",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\Get.h",
-              "RelativeToolTip": "Protocol\\Get.h",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-30T10:16:04.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\main.cpp",
-              "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAGkAAAAAAAAAAAAAAAQAAAANAAAA",
+              "DocumentIndex": 3,
+              "Title": "Get.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\Get.cpp",
+              "RelativeDocumentMoniker": "Protocol\\Get.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\Get.cpp",
+              "RelativeToolTip": "Protocol\\Get.cpp",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAowCQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-18T05:49:45.767Z",
+              "WhenOpened": "2025-10-30T10:16:01.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Alarm.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Alarm.cpp",
+              "RelativeDocumentMoniker": "Alarm.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\Alarm.cpp",
+              "RelativeToolTip": "Alarm.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-29T17:14:37.327Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "mainpage.h",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\mainpage.h",
-              "RelativeDocumentMoniker": "mainpage.h",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\mainpage.h",
-              "RelativeToolTip": "mainpage.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-30T10:01:23.417Z",
+              "Title": "test_main.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Test\\test_main.cpp",
+              "RelativeDocumentMoniker": "Test\\test_main.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\Test\\test_main.cpp",
+              "RelativeToolTip": "Test\\test_main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-02T14:50:54.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
+              "Title": "gtest.h",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Test\\gtest.h",
+              "RelativeDocumentMoniker": "Test\\gtest.h",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\Test\\gtest.h",
+              "RelativeToolTip": "Test\\gtest.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-02T14:50:51.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "gtest-all.cc",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Test\\gtest-all.cc",
+              "RelativeDocumentMoniker": "Test\\gtest-all.cc",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\Test\\gtest-all.cc",
+              "RelativeToolTip": "Test\\gtest-all.cc",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-02T14:50:49.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Client.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Client.cpp",
+              "RelativeDocumentMoniker": "Client.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\Client.cpp",
+              "RelativeToolTip": "Client.cpp",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAAAHwAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-30T08:33:26.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Client.h",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Client.h",
+              "RelativeDocumentMoniker": "Client.h",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\Client.h",
+              "RelativeToolTip": "Client.h",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-30T08:32:08.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Server.h",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Server.h",
+              "RelativeDocumentMoniker": "Server.h",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\Server.h",
+              "RelativeToolTip": "Server.h",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAGAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-30T08:36:23.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Server.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Server.cpp",
               "RelativeDocumentMoniker": "Server.cpp",
@@ -257,7 +352,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 20,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAGkAAAAAAAAAAAAAAAQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-18T05:49:45.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Get.h",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\Get.h",
+              "RelativeDocumentMoniker": "Protocol\\Get.h",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\Get.h",
+              "RelativeToolTip": "Protocol\\Get.h",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-30T10:16:04.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "groups.h",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\groups.h",
+              "RelativeDocumentMoniker": "groups.h",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\groups.h",
+              "RelativeToolTip": "groups.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-30T10:16:07.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "mainpage.h",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\mainpage.h",
+              "RelativeDocumentMoniker": "mainpage.h",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\mainpage.h",
+              "RelativeToolTip": "mainpage.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-30T10:01:23.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "SharedData.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\SharedData.cpp",
               "RelativeDocumentMoniker": "SharedData.cpp",
@@ -265,12 +408,11 @@
               "RelativeToolTip": "SharedData.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-30T09:01:56.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-30T09:01:56.458Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 17,
               "Title": "SharedData.h",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\SharedData.h",
               "RelativeDocumentMoniker": "SharedData.h",
@@ -278,25 +420,11 @@
               "RelativeToolTip": "SharedData.h",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-30T08:56:56.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-30T08:56:56.163Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Get.cpp",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\Get.cpp",
-              "RelativeDocumentMoniker": "Protocol\\Get.cpp",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\Protocol\\Get.cpp",
-              "RelativeToolTip": "Protocol\\Get.cpp",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-30T10:16:01.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 23,
               "Title": "generate_docs.sh",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\generate_docs.sh",
               "RelativeDocumentMoniker": "generate_docs.sh",
@@ -304,12 +432,11 @@
               "RelativeToolTip": "generate_docs.sh",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-30T10:15:57.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-30T10:15:57.959Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "Doxyfile",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Doxyfile",
               "RelativeDocumentMoniker": "Doxyfile",
@@ -317,25 +444,11 @@
               "RelativeToolTip": "Doxyfile",
               "ViewState": "AQIAAEcAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-10-30T10:15:53.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-30T10:15:53.756Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Server.h",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Server.h",
-              "RelativeDocumentMoniker": "Server.h",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\Server.h",
-              "RelativeToolTip": "Server.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGAAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-30T08:36:23.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "Alarm.h",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Alarm.h",
               "RelativeDocumentMoniker": "Alarm.h",
@@ -343,25 +456,11 @@
               "RelativeToolTip": "Alarm.h",
               "ViewState": "AQIAAEsAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-30T10:15:36.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-30T10:15:36.898Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Alarm.cpp",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Alarm.cpp",
-              "RelativeDocumentMoniker": "Alarm.cpp",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\Alarm.cpp",
-              "RelativeToolTip": "Alarm.cpp",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAAADUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-29T17:14:37.327Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "CMakeLists.txt",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\CMakeLists.txt",
               "RelativeDocumentMoniker": "CMakeLists.txt",
@@ -369,34 +468,7 @@
               "RelativeToolTip": "CMakeLists.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-10-30T08:35:57.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Client.cpp",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Client.cpp",
-              "RelativeDocumentMoniker": "Client.cpp",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\Client.cpp",
-              "RelativeToolTip": "Client.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHwAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-30T08:33:26.187Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Client.h",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\project_RG\\Client.h",
-              "RelativeDocumentMoniker": "Client.h",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\project_RG\\Client.h",
-              "RelativeToolTip": "Client.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-10-30T08:32:08.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-30T08:35:57.801Z"
             }
           ]
         }
