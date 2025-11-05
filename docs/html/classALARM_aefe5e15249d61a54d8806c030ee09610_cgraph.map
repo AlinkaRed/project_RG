@@ -1,5 +1,0 @@
-<map id="ALARM::checkInputPowerAlarms" name="ALARM::checkInputPowerAlarms">
-<area shape="rect" id="Node000001" title="Checks input power alarms." alt="" coords="5,5,240,31"/>
-<area shape="rect" id="Node000002" href="$classSystem.html#ad8bb613c6c7602442a0b6707cccbc82d" title="Calls alarm callback function." alt="" coords="288,5,449,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="240,15,275,15,275,21,240,21"/>
-</map>

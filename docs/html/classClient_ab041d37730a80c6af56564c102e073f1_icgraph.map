@@ -1,5 +1,0 @@
-<map id="Client::cleanup" name="Client::cleanup">
-<area shape="rect" id="Node000001" title="Cleans up shared memory and semaphores." alt="" coords="171,5,289,31"/>
-<area shape="rect" id="Node000002" href="$classClient.html#a840e519ca781888cbd54181572ebe3a7" title="Destroys the Client object and cleans up resources." alt="" coords="5,5,123,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="157,21,123,21,123,15,157,15"/>
-</map>

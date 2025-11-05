@@ -1,9 +1,0 @@
-<map id="testing::internal::ParameterizedTestCaseRegistry::GetTestCasePatternHolder" name="testing::internal::ParameterizedTestCaseRegistry::GetTestCasePatternHolder">
-<area shape="rect" id="Node000001" title=" " alt="" coords="5,66,233,121"/>
-<area shape="rect" id="Node000002" href="$namespacetesting_1_1internal.html#af54f5cf4d9e03836ecc0316d090cb4ed" title=" " alt="" coords="281,29,508,69"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,72,267,67,268,72,234,78"/>
-<area shape="rect" id="Node000003" href="$namespacetesting_1_1internal.html#a864171ad4983f5b8e4258d0d5db0c03b" title=" " alt="" coords="296,117,493,157"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="234,109,283,117,282,122,233,114"/>
-<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="344,30,341,20,349,10,367,5,395,3,426,5,444,13,442,18,425,11,395,8,368,10,352,15,346,21,349,28"/>
-<area shape="poly" id="edge4_Node000003_Node000003" title=" " alt="" coords="344,118,341,108,349,98,367,93,395,91,426,93,444,101,442,106,425,99,395,96,368,98,352,103,346,109,349,116"/>
-</map>

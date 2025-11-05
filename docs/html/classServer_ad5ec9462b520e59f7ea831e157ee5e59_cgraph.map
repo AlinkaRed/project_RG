@@ -1,7 +1,0 @@
-<map id="Server::Server" name="Server::Server">
-<area shape="rect" id="Node000001" title="Constructs a new Server object." alt="" coords="5,42,120,67"/>
-<area shape="rect" id="Node000002" href="$classServer.html#a1a7b8546a9aeeba5f4992c83581738c0" title="Initializes shared memory and semaphores for IPC." alt="" coords="179,5,352,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,44,165,37,166,42,121,49"/>
-<area shape="rect" id="Node000003" href="$classSystem.html#a8e705bd2f5f23ee31bf5846015214c04" title="Sets callback function for alarm handling." alt="" coords="168,70,363,95"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="121,60,160,65,159,71,120,65"/>
-</map>

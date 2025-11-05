@@ -1,2 +1,0 @@
-/usr/bin/ar qc libProtocol.a CMakeFiles/Protocol.dir/src/SystemData.cpp.o CMakeFiles/Protocol.dir/src/System.cpp.o CMakeFiles/Protocol.dir/src/SET.cpp.o CMakeFiles/Protocol.dir/src/GET.cpp.o
-/usr/bin/ranlib libProtocol.a

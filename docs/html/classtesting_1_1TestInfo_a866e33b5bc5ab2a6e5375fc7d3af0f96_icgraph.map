@@ -1,9 +1,0 @@
-<map id="testing::TestInfo::should_run" name="testing::TestInfo::should_run">
-<area shape="rect" id="Node000001" title=" " alt="" coords="195,69,329,109"/>
-<area shape="rect" id="Node000002" href="$classtesting_1_1TestCase.html#a75eb139557c43362f94916cfd6762c94" title=" " alt="" coords="5,5,147,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="189,67,134,48,136,43,191,62"/>
-<area shape="rect" id="Node000003" href="$classtesting_1_1TestCase.html#a5922884cb8b4819e869146dc315a1ac1" title=" " alt="" coords="5,69,147,109"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,92,147,92,147,87,181,87"/>
-<area shape="rect" id="Node000004" href="$classtesting_1_1TestCase.html#ad8d9e1ebc410000b679002ba71d78686" title=" " alt="" coords="5,133,147,173"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="191,116,136,136,134,131,189,111"/>
-</map>

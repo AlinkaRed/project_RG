@@ -1,7 +1,0 @@
-<map id="Client::initializeSharedMemory" name="Client::initializeSharedMemory">
-<area shape="rect" id="Node000001" title="Initializes shared memory connection to server." alt="" coords="245,5,415,45"/>
-<area shape="rect" id="Node000002" href="$classClient.html#ae0bc335d720265d4d6e8a72cf7a2a9aa" title="Main client execution loop." alt="" coords="108,13,197,38"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,28,197,28,197,23,231,23"/>
-<area shape="rect" id="Node000003" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="Main function for Radio Control System." alt="" coords="5,13,60,38"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,28,60,28,60,23,94,23"/>
-</map>

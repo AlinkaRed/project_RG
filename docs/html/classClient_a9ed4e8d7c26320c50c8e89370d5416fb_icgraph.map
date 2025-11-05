@@ -1,7 +1,0 @@
-<map id="Client::showHelp" name="Client::showHelp">
-<area shape="rect" id="Node000001" title="Displays help information about available commands." alt="" coords="245,5,377,31"/>
-<area shape="rect" id="Node000002" href="$classClient.html#ae0bc335d720265d4d6e8a72cf7a2a9aa" title="Main client execution loop." alt="" coords="108,5,197,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,21,198,21,198,15,232,15"/>
-<area shape="rect" id="Node000003" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="Main function for Radio Control System." alt="" coords="5,5,60,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
-</map>

@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/RadioControlSystem.dir/main.cpp.o CMakeFiles/RadioControlSystem.dir/System/src/ALARM.cpp.o CMakeFiles/RadioControlSystem.dir/System/src/Server.cpp.o CMakeFiles/RadioControlSystem.dir/System/src/Client.cpp.o CMakeFiles/RadioControlSystem.dir/System/src/SharedData.cpp.o -o RadioControlSystem  libProtocol.a -lpthread -lrt 

@@ -1,8 +1,0 @@
-<map id="testing::internal::IsTrue" name="testing::internal::IsTrue">
-<area shape="rect" id="Node000001" title=" " alt="" coords="188,37,321,77"/>
-<area shape="poly" id="edge2_Node000001_Node000001" title=" " alt="" coords="285,25,274,19,255,16,237,18,227,23,223,29,225,36,220,38,218,28,224,19,236,13,255,11,276,14,288,21"/>
-<area shape="rect" id="Node000002" href="$namespacetesting_1_1internal.html#affa1f94e3ba8db8b964553c2871bf339" title=" " alt="" coords="6,5,139,45"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,46,139,40,140,34,175,41"/>
-<area shape="rect" id="Node000003" href="$classtesting_1_1internal_1_1scoped__ptr.html#acac03266a43359801aff0de5c990bec0" title=" " alt="" coords="5,69,140,109"/>
-<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="175,74,141,80,140,75,174,69"/>
-</map>

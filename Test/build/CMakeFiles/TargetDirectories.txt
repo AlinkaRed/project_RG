@@ -1,5 +1,0 @@
-/mnt/c/Users/USER/source/repos/project_RG/Test/build/CMakeFiles/Protocol_STATIC.dir
-/mnt/c/Users/USER/source/repos/project_RG/Test/build/CMakeFiles/RadioControlSystemTests.dir
-/mnt/c/Users/USER/source/repos/project_RG/Test/build/CMakeFiles/test.dir
-/mnt/c/Users/USER/source/repos/project_RG/Test/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/USER/source/repos/project_RG/Test/build/CMakeFiles/rebuild_cache.dir

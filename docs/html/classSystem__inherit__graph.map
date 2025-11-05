@@ -1,9 +1,0 @@
-<map id="System" name="System">
-<area shape="rect" id="Node000001" title="Base class for system management." alt="" coords="87,5,158,31"/>
-<area shape="rect" id="Node000002" href="$classALARM.html" title="Class for system state monitoring and alarm generation." alt="" coords="5,79,75,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,42,55,80,52,76,97,38"/>
-<area shape="rect" id="Node000003" href="$classGET.html" title="Class for reading system parameters." alt="" coords="99,79,147,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="125,44,125,79,120,79,120,44"/>
-<area shape="rect" id="Node000004" href="$classSET.html" title="Class for setting system parameters." alt="" coords="171,79,218,104"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="146,39,185,77,181,80,143,43"/>
-</map>

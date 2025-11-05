@@ -1,5 +1,0 @@
-<map id="Server::executeGET" name="Server::executeGET">
-<area shape="rect" id="Node000001" title="Executes GET command to retrieve parameter value." alt="" coords="5,5,155,31"/>
-<area shape="rect" id="Node000002" href="$classGET.html#af16fd13fadabf126f8f09a97d0f29c9c" title="Executes system parameter reading." alt="" coords="203,5,309,31"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,15,189,15,189,21,155,21"/>
-</map>

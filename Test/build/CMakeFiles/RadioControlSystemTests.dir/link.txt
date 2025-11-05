@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/RadioControlSystemTests.dir/test_system.cpp.o -o RadioControlSystemTests  libProtocol_STATIC.a /usr/lib/x86_64-linux-gnu/libgtest_main.a -lpthread /usr/lib/x86_64-linux-gnu/libgtest.a 

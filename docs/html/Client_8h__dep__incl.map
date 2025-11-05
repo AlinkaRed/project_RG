@@ -1,7 +1,0 @@
-<map id="System/include/Client.h" name="System/include/Client.h">
-<area shape="rect" id="Node000001" title="Client class for sending commands to radio control server." alt="" coords="72,5,248,31"/>
-<area shape="rect" id="Node000002" href="$Client_8cpp.html" title="Implementation of Client class for radio control system." alt="" coords="5,79,168,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,42,100,80,97,77,136,38"/>
-<area shape="rect" id="Node000003" href="$main_8cpp.html" title="Main entry point for Radio Control System (Server/Client)" alt="" coords="192,79,275,104"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="184,38,223,77,220,80,180,42"/>
-</map>
