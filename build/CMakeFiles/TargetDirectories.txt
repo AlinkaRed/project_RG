@@ -1,0 +1,9 @@
+/mnt/c/Users/USER/source/repos/project_RG/build/CMakeFiles/docs.dir
+/mnt/c/Users/USER/source/repos/project_RG/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/USER/source/repos/project_RG/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/USER/source/repos/project_RG/build/Protocol/CMakeFiles/Protocol.dir
+/mnt/c/Users/USER/source/repos/project_RG/build/Protocol/CMakeFiles/edit_cache.dir
+/mnt/c/Users/USER/source/repos/project_RG/build/Protocol/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/USER/source/repos/project_RG/build/System/CMakeFiles/RadioControlSystem.dir
+/mnt/c/Users/USER/source/repos/project_RG/build/System/CMakeFiles/edit_cache.dir
+/mnt/c/Users/USER/source/repos/project_RG/build/System/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,17 @@
+<map id="ALARM::updateAndCheckAlarms" name="ALARM::updateAndCheckAlarms">
+<area shape="rect" id="Node000001" title="Updates simulation and checks alarms." alt="" coords="5,80,239,105"/>
+<area shape="rect" id="Node000002" href="$classALARM.html#a0258327c473027f4b3242d87e0a4dbcf" title="Checks all types of alarms." alt="" coords="295,55,473,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="239,79,281,75,281,80,239,84"/>
+<area shape="rect" id="Node000007" href="$classSystem.html#a194139c6b68d3649d6159a443d1ceccf" title="Updates system simulation data." alt="" coords="287,104,481,129"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="239,101,273,104,273,109,239,106"/>
+<area shape="rect" id="Node000003" href="$classALARM.html#aefe5e15249d61a54d8806c030ee09610" title="Checks input power alarms." alt="" coords="535,5,769,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="453,52,568,31,569,36,454,57"/>
+<area shape="rect" id="Node000005" href="$classALARM.html#ad16e6e018a93a391645c5e5af562c889" title="Checks output power alarms." alt="" coords="529,55,775,80"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="474,65,516,65,516,70,474,70"/>
+<area shape="rect" id="Node000006" href="$classALARM.html#af6efa877fd7d818da53007898c83c3a7" title="Checks temperature alarms." alt="" coords="531,104,773,129"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="454,77,569,99,568,104,453,83"/>
+<area shape="rect" id="Node000004" href="$classSystem.html#ad8bb613c6c7602442a0b6707cccbc82d" title="Calls alarm callback function." alt="" coords="823,55,984,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="718,28,775,39,825,49,824,54,774,45,717,33"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="775,65,809,65,809,70,775,70"/>
+<area shape="poly" id="edge7_Node000006_Node000004" title=" " alt="" coords="717,101,824,80,825,85,718,107"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="ALARM" name="ALARM">
+<area shape="rect" id="Node000001" title="Class for system state monitoring and alarm generation." alt="" coords="6,79,75,104"/>
+<area shape="rect" id="Node000002" href="$classSystem.html" title="Base class for system management." alt="" coords="5,5,76,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="43,44,43,79,38,79,38,44"/>
+</map>

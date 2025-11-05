@@ -1,0 +1,5 @@
+<map id="SET::setAutomaticModulation" name="SET::setAutomaticModulation">
+<area shape="rect" id="Node000001" title="Sets automatic modulation mode." alt="" coords="5,5,219,31"/>
+<area shape="rect" id="Node000002" href="$classSystem.html#ae427fbf39214f54868d51373dc4afb0b" title="Checks validity of boolean string." alt="" coords="267,5,441,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,15,253,15,253,21,219,21"/>
+</map>

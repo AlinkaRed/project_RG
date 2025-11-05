@@ -79,8 +79,8 @@
 
 #include <iostream>
 #include <string>
-#include "Server.h"
-#include "Client.h"
+#include "System/include/Server.h"
+#include "System/include/Client.h"
 
 /**
  * @brief Main function for Radio Control System

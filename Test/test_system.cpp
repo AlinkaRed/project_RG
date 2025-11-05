@@ -1,9 +1,9 @@
 #include <gtest/gtest.h>
-#include "../Protocol/SystemData.h"
-#include "../Protocol/System.h"
-#include "../Protocol/Set.h"
-#include "../Protocol/Get.h"
-#include "../Alarm.h"
+#include "../Protocol/include/SystemData.h"
+#include "../Protocol/include/System.h"
+#include "../Protocol/include/Set.h"
+#include "../Protocol/include/Get.h"
+#include "../System/include/Alarm.h"
 
 // SystemData tests
 TEST(SystemData, can_create_system_data)

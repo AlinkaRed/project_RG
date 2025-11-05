@@ -1,0 +1,2 @@
+/usr/bin/ar qc libProtocol_STATIC.a CMakeFiles/Protocol_STATIC.dir/mnt/c/Users/USER/source/repos/project_RG/Protocol/src/SystemData.cpp.o CMakeFiles/Protocol_STATIC.dir/mnt/c/Users/USER/source/repos/project_RG/Protocol/src/System.cpp.o CMakeFiles/Protocol_STATIC.dir/mnt/c/Users/USER/source/repos/project_RG/Protocol/src/SET.cpp.o CMakeFiles/Protocol_STATIC.dir/mnt/c/Users/USER/source/repos/project_RG/Protocol/src/GET.cpp.o CMakeFiles/Protocol_STATIC.dir/mnt/c/Users/USER/source/repos/project_RG/System/src/ALARM.cpp.o
+/usr/bin/ranlib libProtocol_STATIC.a

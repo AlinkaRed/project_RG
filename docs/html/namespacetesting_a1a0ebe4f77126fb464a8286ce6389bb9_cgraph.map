@@ -1,0 +1,7 @@
+<map id="testing::Bool" name="testing::Bool">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,29,109,55"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="31,31,25,21,28,11,39,5,57,3,79,6,88,15,85,19,77,11,57,8,41,10,32,15,31,20,35,28"/>
+<area shape="rect" id="Node000002" href="$namespacetesting.html#a0c5a07d0439f323cd4353c718e277a10" title=" " alt="" coords="157,29,276,55"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="110,39,144,39,144,45,110,45"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="190,31,185,21,188,11,199,5,217,3,238,6,248,15,244,19,236,11,217,8,200,10,192,15,190,20,195,28"/>
+</map>

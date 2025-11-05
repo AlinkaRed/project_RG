@@ -1,0 +1,7 @@
+<map id="Client::run" name="Client::run">
+<area shape="rect" id="Node000001" title="Main client execution loop." alt="" coords="5,42,95,67"/>
+<area shape="rect" id="Node000002" href="$classClient.html#a2d753d9e9b859c5b0bed30845b7ec84d" title="Initializes shared memory connection to server." alt="" coords="143,5,312,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,45,129,39,129,44,95,50"/>
+<area shape="rect" id="Node000003" href="$classClient.html#a9ed4e8d7c26320c50c8e89370d5416fb" title="Displays help information about available commands." alt="" coords="161,70,293,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="95,59,148,67,147,73,95,64"/>
+</map>

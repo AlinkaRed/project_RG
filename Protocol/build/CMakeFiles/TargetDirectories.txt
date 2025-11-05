@@ -1,0 +1,7 @@
+/mnt/c/Users/USER/source/repos/project_RG/Protocol/build/CMakeFiles/Protocol.dir
+/mnt/c/Users/USER/source/repos/project_RG/Protocol/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/USER/source/repos/project_RG/Protocol/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/USER/source/repos/project_RG/Protocol/build/CMakeFiles/list_install_components.dir
+/mnt/c/Users/USER/source/repos/project_RG/Protocol/build/CMakeFiles/install.dir
+/mnt/c/Users/USER/source/repos/project_RG/Protocol/build/CMakeFiles/install/local.dir
+/mnt/c/Users/USER/source/repos/project_RG/Protocol/build/CMakeFiles/install/strip.dir

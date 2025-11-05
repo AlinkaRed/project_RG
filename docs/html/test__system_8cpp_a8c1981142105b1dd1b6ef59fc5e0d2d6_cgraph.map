@@ -1,0 +1,19 @@
+<map id="TEST" name="TEST">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,80,60,105"/>
+<area shape="rect" id="Node000002" href="$classALARM.html#ab062f1e924d10a708eba574f24c3bfbb" title="Updates simulation and checks alarms." alt="" coords="108,80,341,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="60,90,94,90,94,95,60,95"/>
+<area shape="rect" id="Node000003" href="$classALARM.html#a0258327c473027f4b3242d87e0a4dbcf" title="Checks all types of alarms." alt="" coords="397,55,576,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="341,79,383,75,384,80,342,84"/>
+<area shape="rect" id="Node000008" href="$classSystem.html#a194139c6b68d3649d6159a443d1ceccf" title="Updates system simulation data." alt="" coords="389,104,584,129"/>
+<area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="342,101,376,104,375,109,341,106"/>
+<area shape="rect" id="Node000004" href="$classALARM.html#aefe5e15249d61a54d8806c030ee09610" title="Checks input power alarms." alt="" coords="637,5,872,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="556,52,671,31,672,36,557,57"/>
+<area shape="rect" id="Node000006" href="$classALARM.html#ad16e6e018a93a391645c5e5af562c889" title="Checks output power alarms." alt="" coords="632,55,877,80"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="576,65,618,65,618,70,576,70"/>
+<area shape="rect" id="Node000007" href="$classALARM.html#af6efa877fd7d818da53007898c83c3a7" title="Checks temperature alarms." alt="" coords="633,104,876,129"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="557,77,672,99,671,104,556,83"/>
+<area shape="rect" id="Node000005" href="$classSystem.html#ad8bb613c6c7602442a0b6707cccbc82d" title="Calls alarm callback function." alt="" coords="925,55,1087,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="821,28,878,39,928,49,926,54,877,45,820,33"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="877,65,912,65,912,70,877,70"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="820,101,927,80,928,85,821,107"/>
+</map>

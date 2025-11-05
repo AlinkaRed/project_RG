@@ -1,0 +1,13 @@
+<map id="ALARM::checkAllAlarms" name="ALARM::checkAllAlarms">
+<area shape="rect" id="Node000001" title="Checks all types of alarms." alt="" coords="5,55,184,80"/>
+<area shape="rect" id="Node000002" href="$classALARM.html#aefe5e15249d61a54d8806c030ee09610" title="Checks input power alarms." alt="" coords="237,5,472,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="162,52,273,31,274,36,163,57"/>
+<area shape="rect" id="Node000004" href="$classALARM.html#ad16e6e018a93a391645c5e5af562c889" title="Checks output power alarms." alt="" coords="232,55,477,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="184,65,218,65,218,70,184,70"/>
+<area shape="rect" id="Node000005" href="$classALARM.html#af6efa877fd7d818da53007898c83c3a7" title="Checks temperature alarms." alt="" coords="233,104,476,129"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="163,77,274,99,273,104,162,83"/>
+<area shape="rect" id="Node000003" href="$classSystem.html#ad8bb613c6c7602442a0b6707cccbc82d" title="Calls alarm callback function." alt="" coords="525,55,687,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="421,28,478,39,528,49,526,54,477,45,420,33"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="477,65,512,65,512,70,477,70"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="420,101,527,80,528,85,421,107"/>
+</map>

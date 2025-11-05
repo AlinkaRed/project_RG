@@ -1,0 +1,21 @@
+<map id="TEST" name="TEST">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,104,60,129"/>
+<area shape="rect" id="Node000002" href="$classSET.html#a07b17ded49b3f3220f4cc1a3cffacbb7" title="Executes system parameter setting." alt="" coords="108,104,212,129"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="60,114,94,114,94,119,60,119"/>
+<area shape="rect" id="Node000003" href="$classSET.html#a4e4f13a0088b062a206dcf5b136a0f65" title="Sets automatic modulation mode." alt="" coords="260,5,473,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="173,101,210,70,259,40,277,32,279,37,261,44,213,74,177,105"/>
+<area shape="rect" id="Node000005" href="$classSET.html#a4c806279868993a72e8c5e68419d749b" title="Sets operating frequency." alt="" coords="297,104,437,129"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="212,114,283,114,283,119,212,119"/>
+<area shape="rect" id="Node000007" href="$classSET.html#a413d730e499b9b5cc2edad71d0ef952a" title="Sets modulation state." alt="" coords="293,55,440,80"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="209,101,259,89,295,80,296,86,261,94,211,106"/>
+<area shape="rect" id="Node000008" href="$classSET.html#ac6ae86e025ef893c576f12981ce79768" title="Sets nominal output power." alt="" coords="283,153,451,179"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="213,126,261,138,300,147,298,153,259,143,211,132"/>
+<area shape="rect" id="Node000009" href="$classSystem.html#a194139c6b68d3649d6159a443d1ceccf" title="Updates system simulation data." alt="" coords="269,203,464,228"/>
+<area shape="poly" id="edge10_Node000002_Node000009" title=" " alt="" coords="177,128,213,158,261,188,283,196,281,201,259,192,210,162,173,132"/>
+<area shape="rect" id="Node000004" href="$classSystem.html#ae427fbf39214f54868d51373dc4afb0b" title="Checks validity of boolean string." alt="" coords="521,43,696,68"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="450,28,513,38,512,43,449,33"/>
+<area shape="rect" id="Node000006" href="$classSystem.html#a0826879cebd3f95ac10c3515234c9609" title="Checks validity of numeric string." alt="" coords="521,116,696,141"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="437,117,508,121,507,126,437,123"/>
+<area shape="poly" id="edge7_Node000007_Node000004" title=" " alt="" coords="440,61,507,58,508,63,441,66"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="449,151,512,141,513,146,450,156"/>
+</map>

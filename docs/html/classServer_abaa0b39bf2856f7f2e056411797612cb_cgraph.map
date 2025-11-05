@@ -1,0 +1,19 @@
+<map id="Server::executeALARM" name="Server::executeALARM">
+<area shape="rect" id="Node000001" title="Executes ALARM command to check system status." alt="" coords="5,80,176,105"/>
+<area shape="rect" id="Node000002" href="$classALARM.html#ab062f1e924d10a708eba574f24c3bfbb" title="Updates simulation and checks alarms." alt="" coords="224,80,457,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,90,210,90,210,95,176,95"/>
+<area shape="rect" id="Node000003" href="$classALARM.html#a0258327c473027f4b3242d87e0a4dbcf" title="Checks all types of alarms." alt="" coords="513,55,692,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="457,79,499,75,500,80,458,84"/>
+<area shape="rect" id="Node000008" href="$classSystem.html#a194139c6b68d3649d6159a443d1ceccf" title="Updates system simulation data." alt="" coords="505,104,700,129"/>
+<area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="458,101,492,104,491,109,457,106"/>
+<area shape="rect" id="Node000004" href="$classALARM.html#aefe5e15249d61a54d8806c030ee09610" title="Checks input power alarms." alt="" coords="753,5,988,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="672,52,787,31,788,36,673,57"/>
+<area shape="rect" id="Node000006" href="$classALARM.html#ad16e6e018a93a391645c5e5af562c889" title="Checks output power alarms." alt="" coords="748,55,993,80"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="692,65,734,65,734,70,692,70"/>
+<area shape="rect" id="Node000007" href="$classALARM.html#af6efa877fd7d818da53007898c83c3a7" title="Checks temperature alarms." alt="" coords="749,104,992,129"/>
+<area shape="poly" id="edge7_Node000003_Node000007" title=" " alt="" coords="673,77,788,99,787,104,672,83"/>
+<area shape="rect" id="Node000005" href="$classSystem.html#ad8bb613c6c7602442a0b6707cccbc82d" title="Calls alarm callback function." alt="" coords="1041,55,1203,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="937,28,994,39,1044,49,1042,54,993,45,936,33"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="993,65,1028,65,1028,70,993,70"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="936,101,1043,80,1044,85,937,107"/>
+</map>

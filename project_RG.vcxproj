@@ -127,27 +127,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Alarm.cpp" />
-    <ClCompile Include="Client.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Protocol\Get.cpp" />
-    <ClCompile Include="Protocol\Set.cpp" />
-    <ClCompile Include="Protocol\System.cpp" />
-    <ClCompile Include="Protocol\SystemData.cpp" />
-    <ClCompile Include="Server.cpp" />
-    <ClCompile Include="SharedData.cpp" />
+    <ClCompile Include="Protocol\src\Get.cpp" />
+    <ClCompile Include="Protocol\src\Set.cpp" />
+    <ClCompile Include="Protocol\src\System.cpp" />
+    <ClCompile Include="Protocol\src\SystemData.cpp" />
+    <ClCompile Include="System\src\Alarm.cpp" />
+    <ClCompile Include="System\src\Client.cpp" />
+    <ClCompile Include="System\src\Server.cpp" />
+    <ClCompile Include="System\src\SharedData.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Alarm.h" />
-    <ClInclude Include="Client.h" />
     <ClInclude Include="groups.h" />
     <ClInclude Include="mainpage.h" />
-    <ClInclude Include="Protocol\Get.h" />
-    <ClInclude Include="Protocol\Set.h" />
-    <ClInclude Include="Protocol\System.h" />
-    <ClInclude Include="Protocol\SystemData.h" />
-    <ClInclude Include="Server.h" />
-    <ClInclude Include="SharedData.h" />
+    <ClInclude Include="Protocol\include\Get.h" />
+    <ClInclude Include="Protocol\include\Set.h" />
+    <ClInclude Include="Protocol\include\System.h" />
+    <ClInclude Include="Protocol\include\SystemData.h" />
+    <ClInclude Include="System\include\Alarm.h" />
+    <ClInclude Include="System\include\Client.h" />
+    <ClInclude Include="System\include\Server.h" />
+    <ClInclude Include="System\include\SharedData.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Doxyfile" />
