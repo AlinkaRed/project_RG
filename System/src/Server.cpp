@@ -1,9 +1,12 @@
 #include "../include/Server.h"
 #include <thread>
 #include <chrono>
+#include <syslog.h>
 
 Server::Server() 
     : set_system(shared_data), get_system(shared_data), alarm_system(shared_data) {
+    
+    std::cout << "Server constructor called" << std::endl;  // Добавляем отладку
     
     auto alarm_callback = [](const std::string& alarm_msg) {
         std::cout << "[ALARM] " << alarm_msg << std::endl;
@@ -24,18 +27,37 @@ Server::~Server() {
  * @brief Initializes shared memory and semaphores for IPC
  */
 void Server::initializeSharedMemory() {
-    sem_client = sem_open(SEM_CLIENT_NAME, O_CREAT, 0644, 0);
-    sem_server = sem_open(SEM_SERVER_NAME, O_CREAT, 0644, 0);
+    std::cout << "Initializing shared memory..." << std::endl;
     
-    if (sem_client == SEM_FAILED || sem_server == SEM_FAILED) {
-        std::cerr << "Failed to create semaphores" << std::endl;
+    sem_unlink(SEM_CLIENT_NAME);
+    sem_unlink(SEM_SERVER_NAME);
+    shm_unlink(SHM_NAME);
+    
+    std::cout << "Creating semaphores..." << std::endl;
+    sem_client = sem_open(SEM_CLIENT_NAME, O_CREAT | O_EXCL, 0644, 0);
+    sem_server = sem_open(SEM_SERVER_NAME, O_CREAT | O_EXCL, 0644, 0);
+    
+    if (sem_client == SEM_FAILED) {
+        std::cerr << "Failed to create sem_client: " << strerror(errno) << std::endl;
         return;
+    } else {
+        std::cout << "sem_client created successfully" << std::endl;
+    }
+    
+    if (sem_server == SEM_FAILED) {
+        std::cerr << "Failed to create sem_server: " << strerror(errno) << std::endl;
+        return;
+    } else {
+        std::cout << "sem_server created successfully" << std::endl;
     }
 
+    std::cout << "Creating shared memory..." << std::endl;
     shm_fd = shm_open(SHM_NAME, O_CREAT | O_RDWR, 0666);
     if (shm_fd == -1) {
-        std::cerr << "Failed to create shared memory" << std::endl;
+        std::cerr << "Failed to create shared memory: " << strerror(errno) << std::endl;
         return;
+    } else {
+        std::cout << "Shared memory created successfully" << std::endl;
     }
     
     ftruncate(shm_fd, sizeof(SharedData));
@@ -43,9 +65,14 @@ void Server::initializeSharedMemory() {
         mmap(0, sizeof(SharedData), PROT_READ | PROT_WRITE, MAP_SHARED, shm_fd, 0));
         
     if (data == MAP_FAILED) {
-        std::cerr << "Failed to map shared memory" << std::endl;
+        std::cerr << "Failed to map shared memory: " << strerror(errno) << std::endl;
         return;
+    } else {
+        std::cout << "Shared memory mapped successfully" << std::endl;
     }
+    
+    memset(data, 0, sizeof(SharedData));
+    std::cout << "Shared memory initialized successfully" << std::endl;
 }
 
 /**
@@ -133,6 +160,8 @@ void Server::processCommand(const std::string& command) {
  * allowing continuous operation as long as commands are received regularly
  */
 void Server::run() {
+    syslog(LOG_INFO, "Server run method started");
+
     std::cout << "Radio Control Server started..." << std::endl;
     std::cout << "Server will automatically shutdown after 90 seconds of inactivity." << std::endl;
 
@@ -166,6 +195,7 @@ void Server::run() {
     }
 
     std::cout << "Server shutdown completed." << std::endl;
+    syslog(LOG_INFO, "Server run method completed");
 }
 
 /**

@@ -1,20 +1,17 @@
-cmake_minimum_required(VERSION 3.12)
-project(System)
-
-set(CMAKE_CXX_STANDARD 17)
-
-add_executable(RadioControlSystem
-    ../main.cpp
-    src/ALARM.cpp
-    src/Server.cpp
+# Библиотека System с поддержкой демона
+add_library(System
+    src/Alarm.cpp
+    src/Server.cpp  
     src/Client.cpp
     src/SharedData.cpp
+    src/ServerDaemon.cpp
 )
 
-target_include_directories(RadioControlSystem PRIVATE
+target_include_directories(System PUBLIC
     ${CMAKE_CURRENT_SOURCE_DIR}/include
-    ../Protocol/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/../Protocol/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/../DaemonLib/include
 )
 
-target_link_libraries(RadioControlSystem Protocol pthread rt)
-target_compile_options(RadioControlSystem PRIVATE -Wall -Wextra)
+target_link_libraries(System Protocol DaemonLib pthread rt)
+target_compile_options(System PRIVATE -Wall -Wextra)

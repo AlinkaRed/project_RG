@@ -3,15 +3,10 @@ project(RadioControlSystem)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_subdirectory(Protocol)
-add_subdirectory(System)
-
-find_package(Doxygen)
-if(DOXYGEN_FOUND)
-    add_custom_target(docs
-        COMMAND ${DOXYGEN_EXECUTABLE} ${CMAKE_SOURCE_DIR}/Doxyfile
-        WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
-        COMMENT "Generating Doxygen documentation"
-        VERBATIM
-    )
-endif()
+# Добавляем поддиректории в правильном порядке зависимостей
+add_subdirectory(Protocol)     # Базовая логика
+add_subdirectory(DaemonLib)    # Библиотека демона  
+add_subdirectory(System)       # Система (зависит от Protocol и DaemonLib)
+add_subdirectory(DaemonApp)    # Приложение демона (зависит от System)
+add_subdirectory(ClientApp)    # Клиентское приложение (зависит от System)
+add_subdirectory(Test)         # Тесты

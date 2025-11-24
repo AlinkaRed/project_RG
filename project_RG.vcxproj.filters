@@ -42,6 +42,18 @@
     <ClCompile Include="System\src\SharedData.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="DaemonLib\src\DaemonBase.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="System\src\ServerDaemon.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="DaemonApp\src\DaemonApp.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientApp\src\ClientApp.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mainpage.h">
@@ -72,6 +84,12 @@
       <Filter>Исходные файлы</Filter>
     </ClInclude>
     <ClInclude Include="System\include\SharedData.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="DaemonLib\include\DaemonBase.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="System\include\ServerDaemon.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
   </ItemGroup>

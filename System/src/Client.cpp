@@ -6,6 +6,7 @@
 #include "../include/Client.h"
 #include <thread>
 #include <chrono>
+#include <syslog.h>
 
 /**
  * @brief Constructs a new Client object
@@ -25,17 +26,40 @@ Client::~Client() {
  * @return true if initialization successful, false otherwise
  */
 bool Client::initializeSharedMemory() {
-    sem_client = sem_open(SEM_CLIENT_NAME, 0);
-    sem_server = sem_open(SEM_SERVER_NAME, 0);
+    syslog(LOG_INFO, "Client connecting to server...");
+    
+    int attempts = 0;
+    const int max_attempts = 10;
+    
+    while (attempts < max_attempts) {
+        sem_client = sem_open(SEM_CLIENT_NAME, 0);
+        sem_server = sem_open(SEM_SERVER_NAME, 0);
+
+        if (sem_client != SEM_FAILED && sem_server != SEM_FAILED) {
+            break;
+        }
+        
+        if (sem_client == SEM_FAILED) {
+            std::cout << "Waiting for server semaphores... (" << attempts + 1 << "/" << max_attempts << ")" << std::endl;
+        }
+        
+        if (sem_client != SEM_FAILED) sem_close(sem_client);
+        if (sem_server != SEM_FAILED) sem_close(sem_server);
+        
+        sleep(1);
+        attempts++;
+    }
 
     if (sem_client == SEM_FAILED || sem_server == SEM_FAILED) {
-        std::cerr << "Error: Server is not running!" << std::endl;
+        std::cerr << "Error: Server is not running! (could not open semaphores)" << std::endl;
         return false;
     }
 
     shm_fd = shm_open(SHM_NAME, O_RDWR, 0666);
     if (shm_fd == -1) {
         std::cerr << "Error: Cannot open shared memory!" << std::endl;
+        sem_close(sem_client);
+        sem_close(sem_server);
         return false;
     }
 
@@ -44,9 +68,13 @@ bool Client::initializeSharedMemory() {
         
     if (data == MAP_FAILED) {
         std::cerr << "Error: Cannot map shared memory!" << std::endl;
+        close(shm_fd);
+        sem_close(sem_client);
+        sem_close(sem_server);
         return false;
     }
     
+    std::cout << "Successfully connected to server" << std::endl;
     return true;
 }
 
