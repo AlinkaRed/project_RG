@@ -2,14 +2,16 @@
 #include <sys/stat.h>
 #include <signal.h>
 #include <cstring>
-
-volatile sig_atomic_t DaemonBase::isRunning = 0;
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <fcntl.h>
 
 DaemonBase::DaemonBase(const std::string& pidFilePath, const std::string& logIdentifier) 
-    : pidFile(pidFilePath), logIdent(logIdentifier) {
+    : isRunning_(false), pidFile(pidFilePath), logIdent(logIdentifier) {
 }
 
 DaemonBase::~DaemonBase() {
+    
 }
 
 bool DaemonBase::start() {
@@ -59,9 +61,14 @@ bool DaemonBase::start() {
     pidFileStream << getpid();
     pidFileStream.close();
 
-    signal(SIGTERM, signalHandler);
-    signal(SIGINT, signalHandler);
-    signal(SIGHUP, signalHandler);
+    struct sigaction sa;
+    sa.sa_handler = DaemonBase::signalHandler;
+    sigemptyset(&sa.sa_mask);
+    sa.sa_flags = 0;
+    
+    sigaction(SIGTERM, &sa, nullptr);
+    sigaction(SIGINT, &sa, nullptr);
+    sigaction(SIGHUP, &sa, nullptr);
 
     umask(0);
     chdir("/");
@@ -73,9 +80,9 @@ bool DaemonBase::start() {
     openlog(logIdent.c_str(), LOG_PID | LOG_CONS, LOG_DAEMON);
     syslog(LOG_INFO, "Daemon started successfully");
 
-    isRunning = 1;
+    isRunning_.store(true);
 
-    sleep(2);
+    std::this_thread::sleep_for(std::chrono::seconds(2));
 
     mainLoop();
 
@@ -102,7 +109,7 @@ bool DaemonBase::stop() {
         
         int count = 0;
         while (kill(pid, 0) == 0 && count < 10) {
-            sleep(1);
+            std::this_thread::sleep_for(std::chrono::seconds(1));
             count++;
         }
         
@@ -150,8 +157,7 @@ void DaemonBase::signalHandler(int signum) {
     switch(signum) {
         case SIGTERM:
         case SIGINT:
-            syslog(LOG_INFO, "Daemon stopping via signal %d", signum);
-            isRunning = 0;
+            syslog(LOG_INFO, "Daemon received stop signal %d", signum);
             break;
         case SIGHUP:
             syslog(LOG_INFO, "Daemon received SIGHUP");

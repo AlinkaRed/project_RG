@@ -1,0 +1,1 @@
+/usr/bin/c++ "CMakeFiles/radio-server.dir/src/DaemonApp.cpp.o" -o radio-server  -Wl,-rpath,/mnt/c/Users/USER/source/repos/project_RG/build/DaemonLib ../System/libSystem.a ../DaemonLib/libDaemonLib.so -lpthread -lrt ../Protocol/libProtocol.a 
