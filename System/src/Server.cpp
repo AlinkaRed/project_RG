@@ -4,9 +4,11 @@
 #include <syslog.h>
 
 Server::Server() 
-    : set_system(shared_data), get_system(shared_data), alarm_system(shared_data) {
+    : set_system(shared_data), get_system(shared_data), 
+      alarm_system(shared_data), monitor_system(shared_data),
+      monitoring_running(false) { 
     
-    std::cout << "Server constructor called" << std::endl;  // Добавляем отладку
+    std::cout << "Server constructor called" << std::endl;
     
     auto alarm_callback = [](const std::string& alarm_msg) {
         std::cout << "[ALARM] " << alarm_msg << std::endl;
@@ -15,11 +17,15 @@ Server::Server()
     set_system.setAlarmCallback(alarm_callback);
     get_system.setAlarmCallback(alarm_callback);
     alarm_system.setAlarmCallback(alarm_callback);
+    monitor_system.setAlarmCallback(alarm_callback);
     
     initializeSharedMemory();
+    
+    startMonitoring();
 }
 
 Server::~Server() {
+    stopMonitoring();
     cleanup();
 }
 
@@ -77,9 +83,6 @@ void Server::initializeSharedMemory() {
 
 /**
  * @brief Executes SET command with parameter validation
- * @param parameter Parameter name to set
- * @param value Value to set
- * @return Response message
  */
 std::string Server::executeSET(const std::string& parameter, const std::string& value) {
     bool success = set_system.execute(parameter, value);
@@ -92,8 +95,6 @@ std::string Server::executeSET(const std::string& parameter, const std::string& 
 
 /**
  * @brief Executes GET command to retrieve parameter value
- * @param parameter Parameter name to get
- * @return Response message with parameter value
  */
 std::string Server::executeGET(const std::string& parameter) {
     std::string result = get_system.execute(parameter);
@@ -105,7 +106,6 @@ std::string Server::executeGET(const std::string& parameter) {
 
 /**
  * @brief Executes ALARM command to check system status
- * @return Response message
  */
 std::string Server::executeALARM() {
     alarm_system.updateAndCheckAlarms();
@@ -113,15 +113,64 @@ std::string Server::executeALARM() {
 }
 
 /**
+ * @brief Executes MONITOR command
+ */
+std::string Server::executeMONITOR(const std::string& command) {
+    return monitor_system.execute(command);
+}
+
+/**
+ * @brief Executes STATUS command
+ */
+std::string Server::executeSTATUS() {
+    std::stringstream status;
+    status << "SYSTEM STATUS:\n"
+           << "================\n"
+           << "Radio System:\n"
+           << "  Nominal Power: " << get_system.execute("nominal_output_power") << " dBm\n"
+           << "  Frequency: " << get_system.execute("frequency") << " MHz\n"
+           << "  Auto Modulation: " << get_system.execute("automatic_modulation") << "\n"
+           << "  Modulation: " << get_system.execute("modulation") << "\n"
+           << "  Temperature: " << get_system.execute("temp") << " C\n"
+           << "  Real Power: " << get_system.execute("real_output_power") << " dBm\n"
+           << "  Input Power: " << get_system.execute("input_power") << " dBm\n"
+           << "\nMonitoring System:\n"
+           << "  Service: " << (monitoring_running ? "RUNNING" : "STOPPED") << "\n"
+           << "  Enabled: " << (shared_data.monitoring.service_enabled ? "YES" : "NO") << "\n"
+           << "  Active Alarms: " << shared_data.monitoring.active_alarms.size() << "\n"
+           << "  Last Update: " << shared_data.monitoring.total_sensor_updates << " updates";
+    
+    return status.str();
+}
+
+/**
  * @brief Processes incoming command from client
- * @param command Command string to process
  */
 void Server::processCommand(const std::string& command) {
     std::cout << "Processing command: " << command << std::endl;
     
     std::stringstream ss(command);
     std::string action, parameter, value;
-    ss >> action >> parameter >> value;
+    ss >> action;
+    
+    // Handle MONITOR commands (they can have multiple words)
+    if (action == "MONITOR") {
+        std::string monitor_cmd;
+        std::getline(ss, monitor_cmd);
+        if (!monitor_cmd.empty() && monitor_cmd[0] == ' ') {
+            monitor_cmd = monitor_cmd.substr(1);
+        }
+        
+        std::string response = executeMONITOR(monitor_cmd);
+        strncpy(data->response, response.c_str(), sizeof(data->response) - 1);
+        data->response[sizeof(data->response) - 1] = '\0';
+        return;
+    }
+    
+    // For other commands, parse normally
+    ss >> parameter;
+    std::getline(ss, value);
+    if (!value.empty() && value[0] == ' ') value = value.substr(1);
     
     std::string response;
     
@@ -135,19 +184,10 @@ void Server::processCommand(const std::string& command) {
         response = executeALARM();
     }
     else if (action == "STATUS") {
-        std::stringstream status;
-        status << "SYSTEM STATUS:\n"
-               << "Nominal Power: " << get_system.execute("nominal_output_power") << " dBm\n"
-               << "Frequency: " << get_system.execute("frequency") << " MHz\n"
-               << "Auto Modulation: " << get_system.execute("automatic_modulation") << "\n"
-               << "Modulation: " << get_system.execute("modulation") << "\n"
-               << "Temperature: " << get_system.execute("temp") << " C\n"
-               << "Real Power: " << get_system.execute("real_output_power") << " dBm\n"
-               << "Input Power: " << get_system.execute("input_power") << " dBm";
-        response = status.str();
+        response = executeSTATUS();
     }
     else {
-        response = "ERROR: Invalid command format. Use: SET <param> <value>, GET <param>, ALARM, or STATUS";
+        response = "ERROR: Invalid command format. Use: SET <param> <value>, GET <param>, ALARM, MONITOR <command>, or STATUS";
     }
     
     strncpy(data->response, response.c_str(), sizeof(data->response) - 1);
@@ -155,14 +195,69 @@ void Server::processCommand(const std::string& command) {
 }
 
 /**
+ * @brief Monitoring thread function
+ */
+void Server::monitoringLoop() {
+    syslog(LOG_INFO, "Monitoring thread started");
+    
+    while (monitoring_running) {
+        if (shared_data.monitoring.service_enabled) {
+            // Update sensors
+            shared_data.updateMonitoringSensors();
+            
+            // Check thresholds
+            shared_data.checkMonitoringThresholds();
+            
+            // Update shared memory
+            data->monitoring.temperature = shared_data.monitoring.temperature;
+            data->monitoring.current = shared_data.monitoring.current;
+            data->monitoring.power = shared_data.monitoring.power;
+            data->monitoring.voltage = shared_data.monitoring.voltage;
+            data->monitoring.active_alarms_count = shared_data.monitoring.active_alarms.size();
+            data->monitoring.service_enabled = shared_data.monitoring.service_enabled;
+            
+            // Update last update time
+            auto now = std::chrono::system_clock::now();
+            std::time_t now_time = std::chrono::system_clock::to_time_t(now);
+            std::strftime(data->monitoring.last_update, sizeof(data->monitoring.last_update),
+                         "%H:%M:%S", std::localtime(&now_time));
+        }
+        
+        // Sleep for polling interval
+        std::this_thread::sleep_for(
+            std::chrono::milliseconds(shared_data.monitoring.polling_interval_ms)
+        );
+    }
+    
+    syslog(LOG_INFO, "Monitoring thread stopped");
+}
+
+void Server::startMonitoring() {
+    if (!monitoring_running) {
+        monitoring_running = true;
+        monitoring_thread = std::thread(&Server::monitoringLoop, this);
+        std::cout << "Monitoring service started" << std::endl;
+    }
+}
+
+void Server::stopMonitoring() {
+    if (monitoring_running) {
+        monitoring_running = false;
+        if (monitoring_thread.joinable()) {
+            monitoring_thread.join();
+        }
+        std::cout << "Monitoring service stopped" << std::endl;
+    }
+}
+
+/**
  * @brief Main server loop - waits for client commands with 90-second timeout
- * @details The server resets the 90-second timer after each client command,
- * allowing continuous operation as long as commands are received regularly
  */
 void Server::run() {
     syslog(LOG_INFO, "Server run method started");
 
     std::cout << "Radio Control Server started..." << std::endl;
+    std::cout << "Monitoring service: " << (monitoring_running ? "RUNNING" : "STOPPED") << std::endl;
     std::cout << "Server will automatically shutdown after 90 seconds of inactivity." << std::endl;
 
     time_t startTime = time(nullptr);

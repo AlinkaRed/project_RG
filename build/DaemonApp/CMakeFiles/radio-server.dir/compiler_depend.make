@@ -8,6 +8,7 @@ DaemonApp/CMakeFiles/radio-server.dir/src/DaemonApp.cpp.o: /mnt/c/Users/USER/sou
   /mnt/c/Users/USER/source/repos/project_RG/Protocol/include/System.h \
   /mnt/c/Users/USER/source/repos/project_RG/Protocol/include/SystemData.h \
   /mnt/c/Users/USER/source/repos/project_RG/System/include/Alarm.h \
+  /mnt/c/Users/USER/source/repos/project_RG/System/include/MONITOR.h \
   /mnt/c/Users/USER/source/repos/project_RG/System/include/Server.h \
   /mnt/c/Users/USER/source/repos/project_RG/System/include/ServerDaemon.h \
   /mnt/c/Users/USER/source/repos/project_RG/System/include/SharedData.h \
@@ -347,8 +348,6 @@ DaemonApp/CMakeFiles/radio-server.dir/src/DaemonApp.cpp.o: /mnt/c/Users/USER/sou
 
 /usr/include/x86_64-linux-gnu/sys/syslog.h:
 
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
 /usr/include/x86_64-linux-gnu/sys/mman.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
@@ -446,6 +445,8 @@ DaemonApp/CMakeFiles/radio-server.dir/src/DaemonApp.cpp.o: /mnt/c/Users/USER/sou
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
 /usr/include/c++/13/debug/assertions.h:
 
@@ -575,10 +576,6 @@ DaemonApp/CMakeFiles/radio-server.dir/src/DaemonApp.cpp.o: /mnt/c/Users/USER/sou
 
 /usr/include/c++/13/bits/locale_facets.h:
 
-/usr/include/c++/13/ext/alloc_traits.h:
-
-/usr/include/c++/13/new:
-
 /usr/include/c++/13/bits/alloc_traits.h:
 
 /usr/include/c++/13/bits/concept_check.h:
@@ -645,6 +642,12 @@ DaemonApp/CMakeFiles/radio-server.dir/src/DaemonApp.cpp.o: /mnt/c/Users/USER/sou
 
 /mnt/c/Users/USER/source/repos/project_RG/Protocol/include/Get.h:
 
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/mnt/c/Users/USER/source/repos/project_RG/System/include/MONITOR.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
 /usr/include/c++/13/bits/ios_base.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
@@ -696,8 +699,6 @@ DaemonApp/CMakeFiles/radio-server.dir/src/DaemonApp.cpp.o: /mnt/c/Users/USER/sou
 /usr/include/x86_64-linux-gnu/bits/sigthread.h:
 
 /usr/include/c++/13/cerrno:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
 /mnt/c/Users/USER/source/repos/project_RG/System/include/Server.h:
 
@@ -802,6 +803,10 @@ DaemonApp/CMakeFiles/radio-server.dir/src/DaemonApp.cpp.o: /mnt/c/Users/USER/sou
 /usr/include/c++/13/tr1/legendre_function.tcc:
 
 /usr/include/c++/13/bits/memoryfwd.h:
+
+/usr/include/c++/13/ext/alloc_traits.h:
+
+/usr/include/c++/13/new:
 
 /usr/include/c++/13/ext/concurrence.h:
 
@@ -956,8 +961,6 @@ DaemonApp/CMakeFiles/radio-server.dir/src/DaemonApp.cpp.o: /mnt/c/Users/USER/sou
 /usr/include/c++/13/bits/ostream_insert.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_ext.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/c++/13/bits/requires_hosted.h:
 

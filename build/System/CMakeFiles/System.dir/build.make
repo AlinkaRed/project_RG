@@ -83,24 +83,10 @@ System/CMakeFiles/System.dir/src/Alarm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/System.dir/src/Alarm.cpp.s"
 	cd /mnt/c/Users/USER/source/repos/project_RG/build/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/USER/source/repos/project_RG/System/src/Alarm.cpp -o CMakeFiles/System.dir/src/Alarm.cpp.s
 
-System/CMakeFiles/System.dir/src/Server.cpp.o: System/CMakeFiles/System.dir/flags.make
-System/CMakeFiles/System.dir/src/Server.cpp.o: /mnt/c/Users/USER/source/repos/project_RG/System/src/Server.cpp
-System/CMakeFiles/System.dir/src/Server.cpp.o: System/CMakeFiles/System.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/USER/source/repos/project_RG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object System/CMakeFiles/System.dir/src/Server.cpp.o"
-	cd /mnt/c/Users/USER/source/repos/project_RG/build/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT System/CMakeFiles/System.dir/src/Server.cpp.o -MF CMakeFiles/System.dir/src/Server.cpp.o.d -o CMakeFiles/System.dir/src/Server.cpp.o -c /mnt/c/Users/USER/source/repos/project_RG/System/src/Server.cpp
-
-System/CMakeFiles/System.dir/src/Server.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/System.dir/src/Server.cpp.i"
-	cd /mnt/c/Users/USER/source/repos/project_RG/build/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/USER/source/repos/project_RG/System/src/Server.cpp > CMakeFiles/System.dir/src/Server.cpp.i
-
-System/CMakeFiles/System.dir/src/Server.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/System.dir/src/Server.cpp.s"
-	cd /mnt/c/Users/USER/source/repos/project_RG/build/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/USER/source/repos/project_RG/System/src/Server.cpp -o CMakeFiles/System.dir/src/Server.cpp.s
-
 System/CMakeFiles/System.dir/src/Client.cpp.o: System/CMakeFiles/System.dir/flags.make
 System/CMakeFiles/System.dir/src/Client.cpp.o: /mnt/c/Users/USER/source/repos/project_RG/System/src/Client.cpp
 System/CMakeFiles/System.dir/src/Client.cpp.o: System/CMakeFiles/System.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/USER/source/repos/project_RG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object System/CMakeFiles/System.dir/src/Client.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/USER/source/repos/project_RG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object System/CMakeFiles/System.dir/src/Client.cpp.o"
 	cd /mnt/c/Users/USER/source/repos/project_RG/build/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT System/CMakeFiles/System.dir/src/Client.cpp.o -MF CMakeFiles/System.dir/src/Client.cpp.o.d -o CMakeFiles/System.dir/src/Client.cpp.o -c /mnt/c/Users/USER/source/repos/project_RG/System/src/Client.cpp
 
 System/CMakeFiles/System.dir/src/Client.cpp.i: cmake_force
@@ -111,24 +97,24 @@ System/CMakeFiles/System.dir/src/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/System.dir/src/Client.cpp.s"
 	cd /mnt/c/Users/USER/source/repos/project_RG/build/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/USER/source/repos/project_RG/System/src/Client.cpp -o CMakeFiles/System.dir/src/Client.cpp.s
 
-System/CMakeFiles/System.dir/src/SharedData.cpp.o: System/CMakeFiles/System.dir/flags.make
-System/CMakeFiles/System.dir/src/SharedData.cpp.o: /mnt/c/Users/USER/source/repos/project_RG/System/src/SharedData.cpp
-System/CMakeFiles/System.dir/src/SharedData.cpp.o: System/CMakeFiles/System.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/USER/source/repos/project_RG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object System/CMakeFiles/System.dir/src/SharedData.cpp.o"
-	cd /mnt/c/Users/USER/source/repos/project_RG/build/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT System/CMakeFiles/System.dir/src/SharedData.cpp.o -MF CMakeFiles/System.dir/src/SharedData.cpp.o.d -o CMakeFiles/System.dir/src/SharedData.cpp.o -c /mnt/c/Users/USER/source/repos/project_RG/System/src/SharedData.cpp
+System/CMakeFiles/System.dir/src/Server.cpp.o: System/CMakeFiles/System.dir/flags.make
+System/CMakeFiles/System.dir/src/Server.cpp.o: /mnt/c/Users/USER/source/repos/project_RG/System/src/Server.cpp
+System/CMakeFiles/System.dir/src/Server.cpp.o: System/CMakeFiles/System.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/USER/source/repos/project_RG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object System/CMakeFiles/System.dir/src/Server.cpp.o"
+	cd /mnt/c/Users/USER/source/repos/project_RG/build/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT System/CMakeFiles/System.dir/src/Server.cpp.o -MF CMakeFiles/System.dir/src/Server.cpp.o.d -o CMakeFiles/System.dir/src/Server.cpp.o -c /mnt/c/Users/USER/source/repos/project_RG/System/src/Server.cpp
 
-System/CMakeFiles/System.dir/src/SharedData.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/System.dir/src/SharedData.cpp.i"
-	cd /mnt/c/Users/USER/source/repos/project_RG/build/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/USER/source/repos/project_RG/System/src/SharedData.cpp > CMakeFiles/System.dir/src/SharedData.cpp.i
+System/CMakeFiles/System.dir/src/Server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/System.dir/src/Server.cpp.i"
+	cd /mnt/c/Users/USER/source/repos/project_RG/build/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/USER/source/repos/project_RG/System/src/Server.cpp > CMakeFiles/System.dir/src/Server.cpp.i
 
-System/CMakeFiles/System.dir/src/SharedData.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/System.dir/src/SharedData.cpp.s"
-	cd /mnt/c/Users/USER/source/repos/project_RG/build/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/USER/source/repos/project_RG/System/src/SharedData.cpp -o CMakeFiles/System.dir/src/SharedData.cpp.s
+System/CMakeFiles/System.dir/src/Server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/System.dir/src/Server.cpp.s"
+	cd /mnt/c/Users/USER/source/repos/project_RG/build/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/USER/source/repos/project_RG/System/src/Server.cpp -o CMakeFiles/System.dir/src/Server.cpp.s
 
 System/CMakeFiles/System.dir/src/ServerDaemon.cpp.o: System/CMakeFiles/System.dir/flags.make
 System/CMakeFiles/System.dir/src/ServerDaemon.cpp.o: /mnt/c/Users/USER/source/repos/project_RG/System/src/ServerDaemon.cpp
 System/CMakeFiles/System.dir/src/ServerDaemon.cpp.o: System/CMakeFiles/System.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/USER/source/repos/project_RG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object System/CMakeFiles/System.dir/src/ServerDaemon.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/USER/source/repos/project_RG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object System/CMakeFiles/System.dir/src/ServerDaemon.cpp.o"
 	cd /mnt/c/Users/USER/source/repos/project_RG/build/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT System/CMakeFiles/System.dir/src/ServerDaemon.cpp.o -MF CMakeFiles/System.dir/src/ServerDaemon.cpp.o.d -o CMakeFiles/System.dir/src/ServerDaemon.cpp.o -c /mnt/c/Users/USER/source/repos/project_RG/System/src/ServerDaemon.cpp
 
 System/CMakeFiles/System.dir/src/ServerDaemon.cpp.i: cmake_force
@@ -139,25 +125,55 @@ System/CMakeFiles/System.dir/src/ServerDaemon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/System.dir/src/ServerDaemon.cpp.s"
 	cd /mnt/c/Users/USER/source/repos/project_RG/build/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/USER/source/repos/project_RG/System/src/ServerDaemon.cpp -o CMakeFiles/System.dir/src/ServerDaemon.cpp.s
 
+System/CMakeFiles/System.dir/src/SharedData.cpp.o: System/CMakeFiles/System.dir/flags.make
+System/CMakeFiles/System.dir/src/SharedData.cpp.o: /mnt/c/Users/USER/source/repos/project_RG/System/src/SharedData.cpp
+System/CMakeFiles/System.dir/src/SharedData.cpp.o: System/CMakeFiles/System.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/USER/source/repos/project_RG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object System/CMakeFiles/System.dir/src/SharedData.cpp.o"
+	cd /mnt/c/Users/USER/source/repos/project_RG/build/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT System/CMakeFiles/System.dir/src/SharedData.cpp.o -MF CMakeFiles/System.dir/src/SharedData.cpp.o.d -o CMakeFiles/System.dir/src/SharedData.cpp.o -c /mnt/c/Users/USER/source/repos/project_RG/System/src/SharedData.cpp
+
+System/CMakeFiles/System.dir/src/SharedData.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/System.dir/src/SharedData.cpp.i"
+	cd /mnt/c/Users/USER/source/repos/project_RG/build/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/USER/source/repos/project_RG/System/src/SharedData.cpp > CMakeFiles/System.dir/src/SharedData.cpp.i
+
+System/CMakeFiles/System.dir/src/SharedData.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/System.dir/src/SharedData.cpp.s"
+	cd /mnt/c/Users/USER/source/repos/project_RG/build/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/USER/source/repos/project_RG/System/src/SharedData.cpp -o CMakeFiles/System.dir/src/SharedData.cpp.s
+
+System/CMakeFiles/System.dir/src/MONITOR.cpp.o: System/CMakeFiles/System.dir/flags.make
+System/CMakeFiles/System.dir/src/MONITOR.cpp.o: /mnt/c/Users/USER/source/repos/project_RG/System/src/MONITOR.cpp
+System/CMakeFiles/System.dir/src/MONITOR.cpp.o: System/CMakeFiles/System.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/c/Users/USER/source/repos/project_RG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object System/CMakeFiles/System.dir/src/MONITOR.cpp.o"
+	cd /mnt/c/Users/USER/source/repos/project_RG/build/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT System/CMakeFiles/System.dir/src/MONITOR.cpp.o -MF CMakeFiles/System.dir/src/MONITOR.cpp.o.d -o CMakeFiles/System.dir/src/MONITOR.cpp.o -c /mnt/c/Users/USER/source/repos/project_RG/System/src/MONITOR.cpp
+
+System/CMakeFiles/System.dir/src/MONITOR.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/System.dir/src/MONITOR.cpp.i"
+	cd /mnt/c/Users/USER/source/repos/project_RG/build/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/USER/source/repos/project_RG/System/src/MONITOR.cpp > CMakeFiles/System.dir/src/MONITOR.cpp.i
+
+System/CMakeFiles/System.dir/src/MONITOR.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/System.dir/src/MONITOR.cpp.s"
+	cd /mnt/c/Users/USER/source/repos/project_RG/build/System && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/USER/source/repos/project_RG/System/src/MONITOR.cpp -o CMakeFiles/System.dir/src/MONITOR.cpp.s
+
 # Object files for target System
 System_OBJECTS = \
 "CMakeFiles/System.dir/src/Alarm.cpp.o" \
-"CMakeFiles/System.dir/src/Server.cpp.o" \
 "CMakeFiles/System.dir/src/Client.cpp.o" \
+"CMakeFiles/System.dir/src/Server.cpp.o" \
+"CMakeFiles/System.dir/src/ServerDaemon.cpp.o" \
 "CMakeFiles/System.dir/src/SharedData.cpp.o" \
-"CMakeFiles/System.dir/src/ServerDaemon.cpp.o"
+"CMakeFiles/System.dir/src/MONITOR.cpp.o"
 
 # External object files for target System
 System_EXTERNAL_OBJECTS =
 
 System/libSystem.a: System/CMakeFiles/System.dir/src/Alarm.cpp.o
-System/libSystem.a: System/CMakeFiles/System.dir/src/Server.cpp.o
 System/libSystem.a: System/CMakeFiles/System.dir/src/Client.cpp.o
-System/libSystem.a: System/CMakeFiles/System.dir/src/SharedData.cpp.o
+System/libSystem.a: System/CMakeFiles/System.dir/src/Server.cpp.o
 System/libSystem.a: System/CMakeFiles/System.dir/src/ServerDaemon.cpp.o
+System/libSystem.a: System/CMakeFiles/System.dir/src/SharedData.cpp.o
+System/libSystem.a: System/CMakeFiles/System.dir/src/MONITOR.cpp.o
 System/libSystem.a: System/CMakeFiles/System.dir/build.make
 System/libSystem.a: System/CMakeFiles/System.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/USER/source/repos/project_RG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libSystem.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/c/Users/USER/source/repos/project_RG/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libSystem.a"
 	cd /mnt/c/Users/USER/source/repos/project_RG/build/System && $(CMAKE_COMMAND) -P CMakeFiles/System.dir/cmake_clean_target.cmake
 	cd /mnt/c/Users/USER/source/repos/project_RG/build/System && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/System.dir/link.txt --verbose=$(VERBOSE)
 

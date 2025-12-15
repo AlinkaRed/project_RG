@@ -1,21 +1,34 @@
-/**
- * @file SharedData.h
- * @brief Shared memory structure and constants for client-server communication
- * 
- * @ingroup CommunicationClasses
- */
-
 #pragma once
 
-/**
- * @brief Structure for shared memory data exchange between client and server
- */
-struct SharedData {
-    char command[256];    ///< Command from client to server
-    char response[256];   ///< Response from server to client
-};
+#include <cstring>
 
-// External declarations for shared memory and semaphore constants
-extern const char* SHM_NAME;         ///< Shared memory name
-extern const char* SEM_CLIENT_NAME;  ///< Client semaphore name  
-extern const char* SEM_SERVER_NAME;  ///< Server semaphore name
+inline constexpr const char* SHM_NAME = "/radio_control_memory";
+inline constexpr const char* SEM_CLIENT_NAME = "/sem_radio_client";
+inline constexpr const char* SEM_SERVER_NAME = "/sem_radio_server";
+
+struct SharedData {
+    char command[256];
+    char response[1024];
+    
+    struct {
+        double temperature;
+        double current;
+        double power;
+        double voltage;
+        int active_alarms_count;
+        bool service_enabled;
+        char last_update[64];
+    } monitoring;
+    
+    SharedData() {
+        memset(command, 0, sizeof(command));
+        memset(response, 0, sizeof(response));
+        monitoring.temperature = 0.0;
+        monitoring.current = 0.0;
+        monitoring.power = 0.0;
+        monitoring.voltage = 0.0;
+        monitoring.active_alarms_count = 0;
+        monitoring.service_enabled = true;
+        memset(monitoring.last_update, 0, sizeof(monitoring.last_update));
+    }
+};

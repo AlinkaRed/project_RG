@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/mnt/c/Users/USER/source/repos/project_RG/System/src/Alarm.cpp" "System/CMakeFiles/System.dir/src/Alarm.cpp.o" "gcc" "System/CMakeFiles/System.dir/src/Alarm.cpp.o.d"
   "/mnt/c/Users/USER/source/repos/project_RG/System/src/Client.cpp" "System/CMakeFiles/System.dir/src/Client.cpp.o" "gcc" "System/CMakeFiles/System.dir/src/Client.cpp.o.d"
+  "/mnt/c/Users/USER/source/repos/project_RG/System/src/MONITOR.cpp" "System/CMakeFiles/System.dir/src/MONITOR.cpp.o" "gcc" "System/CMakeFiles/System.dir/src/MONITOR.cpp.o.d"
   "/mnt/c/Users/USER/source/repos/project_RG/System/src/Server.cpp" "System/CMakeFiles/System.dir/src/Server.cpp.o" "gcc" "System/CMakeFiles/System.dir/src/Server.cpp.o.d"
   "/mnt/c/Users/USER/source/repos/project_RG/System/src/ServerDaemon.cpp" "System/CMakeFiles/System.dir/src/ServerDaemon.cpp.o" "gcc" "System/CMakeFiles/System.dir/src/ServerDaemon.cpp.o.d"
   "/mnt/c/Users/USER/source/repos/project_RG/System/src/SharedData.cpp" "System/CMakeFiles/System.dir/src/SharedData.cpp.o" "gcc" "System/CMakeFiles/System.dir/src/SharedData.cpp.o.d"

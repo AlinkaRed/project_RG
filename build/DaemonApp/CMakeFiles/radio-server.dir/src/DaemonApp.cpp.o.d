@@ -226,21 +226,22 @@ DaemonApp/CMakeFiles/radio-server.dir/src/DaemonApp.cpp.o: \
  /usr/include/c++/13/thread /usr/include/c++/13/bits/std_thread.h \
  /usr/include/c++/13/bits/this_thread_sleep.h \
  /mnt/c/Users/USER/source/repos/project_RG/DaemonApp/src/../../System/include/Server.h \
+ /usr/include/semaphore.h /usr/include/x86_64-linux-gnu/bits/semaphore.h \
+ /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+ /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+ /usr/include/linux/falloc.h /usr/include/x86_64-linux-gnu/bits/stat.h \
+ /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
  /usr/include/x86_64-linux-gnu/sys/mman.h \
  /usr/include/x86_64-linux-gnu/bits/mman.h \
  /usr/include/x86_64-linux-gnu/bits/mman-map-flags-generic.h \
  /usr/include/x86_64-linux-gnu/bits/mman-linux.h \
  /usr/include/x86_64-linux-gnu/bits/mman-shared.h \
- /usr/include/x86_64-linux-gnu/bits/mman_ext.h /usr/include/fcntl.h \
- /usr/include/x86_64-linux-gnu/bits/fcntl.h \
- /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
- /usr/include/linux/falloc.h /usr/include/x86_64-linux-gnu/bits/stat.h \
- /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
+ /usr/include/x86_64-linux-gnu/bits/mman_ext.h \
  /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h \
- /usr/include/semaphore.h /usr/include/x86_64-linux-gnu/bits/semaphore.h \
  /usr/include/c++/13/sstream /usr/include/c++/13/bits/sstream.tcc \
- /mnt/c/Users/USER/source/repos/project_RG/DaemonApp/src/../../System/include/../../Protocol/include/Set.h \
+ /mnt/c/Users/USER/source/repos/project_RG/DaemonApp/src/../../System/include/SharedData.h \
+ /mnt/c/Users/USER/source/repos/project_RG/DaemonApp/src/../../System/include/Alarm.h \
  /mnt/c/Users/USER/source/repos/project_RG/DaemonApp/src/../../System/include/../../Protocol/include/System.h \
  /usr/include/c++/13/random /usr/include/c++/13/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -271,6 +272,6 @@ DaemonApp/CMakeFiles/radio-server.dir/src/DaemonApp.cpp.o: \
  /usr/include/c++/13/pstl/glue_numeric_defs.h \
  /usr/include/c++/13/pstl/execution_defs.h \
  /mnt/c/Users/USER/source/repos/project_RG/DaemonApp/src/../../System/include/../../Protocol/include/SystemData.h \
- /mnt/c/Users/USER/source/repos/project_RG/DaemonApp/src/../../System/include/../../Protocol/include/Get.h \
- /mnt/c/Users/USER/source/repos/project_RG/DaemonApp/src/../../System/include/Alarm.h \
- /mnt/c/Users/USER/source/repos/project_RG/DaemonApp/src/../../System/include/SharedData.h
+ /mnt/c/Users/USER/source/repos/project_RG/DaemonApp/src/../../System/include/MONITOR.h \
+ /mnt/c/Users/USER/source/repos/project_RG/DaemonApp/src/../../System/include/../../Protocol/include/Set.h \
+ /mnt/c/Users/USER/source/repos/project_RG/DaemonApp/src/../../System/include/../../Protocol/include/Get.h

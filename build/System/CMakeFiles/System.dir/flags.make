@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/USER/source/repos/project_RG/System/include -I/mnt/c/Users/USER/source/repos/project_RG/System/../Protocol/include -I/mnt/c/Users/USER/source/repos/project_RG/System/../DaemonLib/include -I/mnt/c/Users/USER/source/repos/project_RG/Protocol/include -I/mnt/c/Users/USER/source/repos/project_RG/DaemonLib/include
+CXX_INCLUDES = -I/mnt/c/Users/USER/source/repos/project_RG/System/include -I/mnt/c/Users/USER/source/repos/project_RG/System/../Protocol/include -I/mnt/c/Users/USER/source/repos/project_RG/Protocol/include -I/mnt/c/Users/USER/source/repos/project_RG/DaemonLib/include
 
-CXX_FLAGS = -std=gnu++17 -Wall -Wextra
+CXX_FLAGS = -std=gnu++17
 

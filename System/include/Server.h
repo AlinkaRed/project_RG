@@ -1,97 +1,61 @@
-/**
- * @file Server.h
- * @brief Server class for handling radio control system commands
- * 
- * @ingroup CommunicationClasses
- */
-
 #pragma once
+
 #include <iostream>
-#include <sys/mman.h>
+#include <string>
+#include <semaphore.h>
 #include <fcntl.h>
+#include <sys/mman.h>
 #include <unistd.h>
 #include <cstring>
-#include <semaphore.h>
-#include <ctime>
 #include <sstream>
+#include <thread>
+#include <atomic>
+#include <chrono>
+
+#include "SharedData.h"
+#include "Alarm.h"
+#include "MONITOR.h"
+
 #include "../../Protocol/include/Set.h"
 #include "../../Protocol/include/Get.h"
-#include "Alarm.h"
-#include "SharedData.h"
 
-/**
- * @brief Server class for processing radio control commands via shared memory
- * 
- * The Server class handles incoming commands from clients through shared memory
- * and semaphores. It processes SET, GET, ALARM, and STATUS commands for the
- * radio control system with a 90-second inactivity timeout.
- */
 class Server {
 private:
-    SystemData shared_data;   ///< Shared system data storage
-    SET set_system;           ///< SET command processor
-    GET get_system;           ///< GET command processor  
-    ALARM alarm_system;       ///< ALARM monitoring system
+    SystemData shared_data;
+    SET set_system;
+    GET get_system;
+    ALARM alarm_system;
+    MONITOR monitor_system;
     
-    sem_t *sem_client;        ///< Client notification semaphore
-    sem_t *sem_server;        ///< Server response semaphore
-    int shm_fd;               ///< Shared memory file descriptor
-    SharedData* data;         ///< Pointer to shared memory data
-
+    sem_t* sem_client;
+    sem_t* sem_server;
+    int shm_fd;
+    SharedData* data;
+    
+    // Monitoring thread
+    std::thread monitoring_thread;
+    std::atomic<bool> monitoring_running;
+    
+    void initializeSharedMemory();
+    std::string executeSET(const std::string& parameter, const std::string& value);
+    std::string executeGET(const std::string& parameter);
+    std::string executeALARM();
+    std::string executeMONITOR(const std::string& command);
+    std::string executeSTATUS();
+    
+    // Monitoring thread function
+    void monitoringLoop();
+    
 public:
-    /**
-     * @brief Constructs a new Server object
-     */
     Server();
-    
-    /**
-     * @brief Destroys the Server object and cleans up resources
-     */
     ~Server();
     
-    /**
-     * @brief Main server execution loop
-     * 
-     * Starts the server to listen for client commands with a 90-second
-     * inactivity timeout that resets after each received command.
-     */
+    void processCommand(const std::string& command);
     void run();
-    
-private:
-    /**
-     * @brief Initializes shared memory and semaphores for IPC
-     */
-    void initializeSharedMemory();
-    
-    /**
-     * @brief Cleans up shared memory and semaphores
-     */
     void cleanup();
     
-    /**
-     * @brief Processes incoming command from client
-     * @param command Command string to process
-     */
-    void processCommand(const std::string& command);
-    
-    /**
-     * @brief Executes SET command with parameter validation
-     * @param parameter Parameter name to set
-     * @param value Value to set
-     * @return Response message
-     */
-    std::string executeSET(const std::string& parameter, const std::string& value);
-    
-    /**
-     * @brief Executes GET command to retrieve parameter value
-     * @param parameter Parameter name to get
-     * @return Response message with parameter value
-     */
-    std::string executeGET(const std::string& parameter);
-    
-    /**
-     * @brief Executes ALARM command to check system status
-     * @return Response message
-     */
-    std::string executeALARM();
+    // Monitoring control
+    void startMonitoring();
+    void stopMonitoring();
+    bool isMonitoringRunning() const { return monitoring_running; }
 };

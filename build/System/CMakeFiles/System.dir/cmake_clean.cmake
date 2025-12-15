@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/System.dir/src/Alarm.cpp.o.d"
   "CMakeFiles/System.dir/src/Client.cpp.o"
   "CMakeFiles/System.dir/src/Client.cpp.o.d"
+  "CMakeFiles/System.dir/src/MONITOR.cpp.o"
+  "CMakeFiles/System.dir/src/MONITOR.cpp.o.d"
   "CMakeFiles/System.dir/src/Server.cpp.o"
   "CMakeFiles/System.dir/src/Server.cpp.o.d"
   "CMakeFiles/System.dir/src/ServerDaemon.cpp.o"

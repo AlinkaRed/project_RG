@@ -84,11 +84,13 @@ bool Client::initializeSharedMemory() {
 void Client::showHelp() {
     std::cout << "\n=== Radio Control System Commands ===" << std::endl;
     std::cout << "Note: Server has 90-second inactivity timeout" << std::endl;
+    
     std::cout << "\nSET commands:" << std::endl;
     std::cout << "  SET nominal_output_power <0-10>    - Set output power in dBm" << std::endl;
     std::cout << "  SET frequency <25.0-26.0>          - Set frequency in MHz (step 0.1)" << std::endl;
     std::cout << "  SET automatic_modulation <on/off>  - Enable/disable auto modulation" << std::endl;
     std::cout << "  SET modulation <on/off>            - Set modulation (only if auto is off)" << std::endl;
+    
     std::cout << "\nGET commands:" << std::endl;
     std::cout << "  GET nominal_output_power           - Get nominal power" << std::endl;
     std::cout << "  GET frequency                      - Get frequency" << std::endl;
@@ -97,6 +99,19 @@ void Client::showHelp() {
     std::cout << "  GET temp                           - Get temperature" << std::endl;
     std::cout << "  GET real_output_power              - Get real output power" << std::endl;
     std::cout << "  GET input_power                    - Get input power" << std::endl;
+    
+    std::cout << "\nMONITOR commands:" << std::endl;
+    std::cout << "  MONITOR STATUS              - Get monitoring system status" << std::endl;
+    std::cout << "  MONITOR SENSORS             - Get current sensor values" << std::endl;
+    std::cout << "  MONITOR ALARMS              - List active alarms" << std::endl;
+    std::cout << "  MONITOR CONFIG GET <param>  - Get monitoring parameter" << std::endl;
+    std::cout << "  MONITOR CONFIG SET <param> <value> - Set monitoring parameter" << std::endl;
+    std::cout << "  MONITOR ALARM ACK <id>      - Acknowledge alarm" << std::endl;
+    std::cout << "  MONITOR SERVICE <on/off>    - Enable/disable monitoring service" << std::endl;
+    std::cout << "  MONITOR UPDATE              - Force sensor update" << std::endl;
+    std::cout << "  MONITOR CHECK               - Check thresholds" << std::endl;
+    std::cout << "  MONITOR CLEAR               - Clear acknowledged alarms" << std::endl;
+    
     std::cout << "\nOther commands:" << std::endl;
     std::cout << "  ALARM                              - Check system alarms" << std::endl;
     std::cout << "  STATUS                             - Get full system status" << std::endl;

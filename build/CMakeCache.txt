@@ -245,6 +245,18 @@ RadioControlSystem_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 RadioControlSystem_SOURCE_DIR:STATIC=/mnt/c/Users/USER/source/repos/project_RG
 
+//Value Computed by CMake
+System_BINARY_DIR:STATIC=/mnt/c/Users/USER/source/repos/project_RG/build/System
+
+//Value Computed by CMake
+System_IS_TOP_LEVEL:STATIC=OFF
+
+//Dependencies for the target
+System_LIB_DEPENDS:STATIC=general;Protocol;general;DaemonLib;
+
+//Value Computed by CMake
+System_SOURCE_DIR:STATIC=/mnt/c/Users/USER/source/repos/project_RG/System
+
 
 ########################
 # INTERNAL cache entries

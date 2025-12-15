@@ -178,6 +178,30 @@ src/Client.cpp.s:
 	cd /mnt/c/Users/USER/source/repos/project_RG/build && $(MAKE) $(MAKESILENT) -f System/CMakeFiles/System.dir/build.make System/CMakeFiles/System.dir/src/Client.cpp.s
 .PHONY : src/Client.cpp.s
 
+src/MONITOR.o: src/MONITOR.cpp.o
+.PHONY : src/MONITOR.o
+
+# target to build an object file
+src/MONITOR.cpp.o:
+	cd /mnt/c/Users/USER/source/repos/project_RG/build && $(MAKE) $(MAKESILENT) -f System/CMakeFiles/System.dir/build.make System/CMakeFiles/System.dir/src/MONITOR.cpp.o
+.PHONY : src/MONITOR.cpp.o
+
+src/MONITOR.i: src/MONITOR.cpp.i
+.PHONY : src/MONITOR.i
+
+# target to preprocess a source file
+src/MONITOR.cpp.i:
+	cd /mnt/c/Users/USER/source/repos/project_RG/build && $(MAKE) $(MAKESILENT) -f System/CMakeFiles/System.dir/build.make System/CMakeFiles/System.dir/src/MONITOR.cpp.i
+.PHONY : src/MONITOR.cpp.i
+
+src/MONITOR.s: src/MONITOR.cpp.s
+.PHONY : src/MONITOR.s
+
+# target to generate assembly for a file
+src/MONITOR.cpp.s:
+	cd /mnt/c/Users/USER/source/repos/project_RG/build && $(MAKE) $(MAKESILENT) -f System/CMakeFiles/System.dir/build.make System/CMakeFiles/System.dir/src/MONITOR.cpp.s
+.PHONY : src/MONITOR.cpp.s
+
 src/Server.o: src/Server.cpp.o
 .PHONY : src/Server.o
 
@@ -265,6 +289,9 @@ help:
 	@echo "... src/Client.o"
 	@echo "... src/Client.i"
 	@echo "... src/Client.s"
+	@echo "... src/MONITOR.o"
+	@echo "... src/MONITOR.i"
+	@echo "... src/MONITOR.s"
 	@echo "... src/Server.o"
 	@echo "... src/Server.i"
 	@echo "... src/Server.s"
